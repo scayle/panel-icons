@@ -1,0 +1,44 @@
+{
+  "name": "@scayle/panel-icons",
+  "version": "1.4.2",
+  "description": "All the Panel icons you know and love",
+  "homepage": "https://www.scayle.com/",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/scayle/panel-icons"
+  },
+  "devDependencies": {
+    "beachball": "^2.47.1",
+    "svgo": "^3.3.2"
+  },
+  "files": [
+    "icons/*",
+    "CHANGELOG.json",
+    "CHANGELOG.md",
+    "README.md"
+  ],
+  "keywords": [
+    "scayle",
+    "scayle panel",
+    "panel",
+    "scayle panel icons",
+    "panel icons"
+  ],
+  "scripts": {
+    "build": "svgo -f ./raw -o ./icons --config svgo.config.js",
+    "change": "beachball change --no-commit --package=@scayle/panel-icons",
+    "checkchange": "beachball check",
+    "release": "beachball publish --access public"
+  },
+  "prettier": {
+    "overrides": [
+      {
+        "files": "package.json",
+        "options": {
+          "tabWidth": 2
+        }
+      }
+    ]
+  }
+}

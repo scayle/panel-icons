@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>chevron-up-down</title>
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(12.000000, 12.000000) rotate(-90.000000) translate(-12.000000, -12.000000) ">
+            <rect fill-opacity="0" fill="#FFFFFF" x="0" y="0" width="24" height="24"></rect>
+            <polygon fill="#414851" points="20 11.999624 18.849905 13.161768 15.045809 17 13.999998 15.943848 17.80335 12.106367 17.909123 11.999624 17.80335 11.893633 13.999998 8.055401 15.045809 7 18.849905 10.838232 18.954188 10.944223"></polygon>
+            <polygon fill="#414851" transform="translate(6.999999, 12.000000) scale(-1, 1) translate(-6.999999, -12.000000) " points="10 11.999624 8.849905 13.161768 5.045809 17 3.999998 15.943848 7.80335 12.106367 7.909123 11.999624 7.80335 11.893633 3.999998 8.055401 5.045809 7 8.849905 10.838232 8.954188 10.944223"></polygon>
+        </g>
+    </g>
+</svg>

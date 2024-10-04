@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>folder-fill</title>
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g fill="#414851" fill-rule="nonzero">
+            <g transform="translate(2.000000, 4.000000)">
+                <path d="M2,0 C0.896,0 0,0.878769231 0,1.96153846 L0,14.0384615 C0,15.1212308 0.896,16 2,16 L18,16 C19.104,16 20,15.1212308 20,14.0384615 L20,4.57692308 C20,3.49415385 19.104,2.61538462 18,2.61538462 L9.06266667,2.61538462 L8.19333333,1.03176923 C7.844,0.393615385 7.172,0 6.432,0 L2,0 Z"></path>
+            </g>
+        </g>
+    </g>
+</svg>

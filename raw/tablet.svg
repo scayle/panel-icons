@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="34px" height="32px" viewBox="0 0 34 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>tablet</title>
+    <defs>
+        <filter x="-43.2%" y="-126.7%" width="180.7%" height="353.3%" filterUnits="objectBoundingBox">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.04 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <filter x="-36.4%" y="-106.7%" width="167.0%" height="313.3%" filterUnits="objectBoundingBox">
+            <feOffset dx="0" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.03 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <filter x="-40.0%" y="-40.0%" width="180.0%" height="180.0%" filterUnits="objectBoundingBox">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.04 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-909.000000, -134.000000)" fill="#828991" fill-rule="nonzero">
+            <g filter="url(#filter-1)" transform="translate(882.000000, 130.000000)">
+                <g filter="url(#filter-2)">
+                    <g filter="url(#filter-3)" transform="translate(29.000000, 0.000000)">
+                        <g transform="translate(5.000000, 5.000000)">
+                            <g transform="translate(1.666667, 3.333333)">
+                                <path d="M2.85204991,1.78571429 C2.85204991,1.58857143 3.01176471,1.42857143 3.20855615,1.42857143 L14.8841355,1.42857143 C15.0809269,1.42857143 15.2406417,1.58857143 15.2406417,1.78571429 L15.2406417,11.547619 C15.2406417,11.7447619 15.0809269,11.9047619 14.8841355,11.9047619 L3.20855615,11.9047619 C3.01176471,11.9047619 2.85204991,11.7447619 2.85204991,11.547619 L2.85204991,1.78571429 Z M0.623885918,6.66666667 C0.623885918,6.22238095 0.982531194,5.86309524 1.42602496,5.86309524 C1.86951872,5.86309524 2.22816399,6.22238095 2.22816399,6.66666667 C2.22816399,7.11095238 1.86951872,7.4702381 1.42602496,7.4702381 C0.982531194,7.4702381 0.623885918,7.11095238 0.623885918,6.66666667 M16.6666667,1.78571429 C16.6666667,0.8 15.8680927,0 14.8841355,0 L1.78253119,0 C0.798573975,0 0,0.8 0,1.78571429 L0,11.547619 C0,12.5333333 0.798573975,13.3333333 1.78253119,13.3333333 L14.8841355,13.3333333 C15.8680927,13.3333333 16.6666667,12.5333333 16.6666667,11.547619 L16.6666667,1.78571429 Z"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

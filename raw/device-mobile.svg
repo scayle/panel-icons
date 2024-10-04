@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>device-mobile</title>
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(3.000000, 2.000000)">
+            <rect x="0" y="1" width="18" height="18"></rect>
+            <g stroke-linecap="square" transform="translate(3.000000, 0.750000)" fill="#414851">
+                <path d="M9.75,0.25 L2.25,0.25 C1.11210245,0.25 0.25,1.28452294 0.25,2.5 L0.25,16 C0.25,17.2154771 1.11210245,18.25 2.25,18.25 L9.75,18.25 C10.8878975,18.25 11.75,17.2154771 11.75,16 L11.75,2.5 C11.75,1.28452294 10.8878975,0.25 9.75,0.25 Z M2.25,1.75 L9.75,1.75 C9.99281432,1.75 10.25,2.05862281 10.25,2.5 L10.25,16 C10.25,16.4413772 9.99281432,16.75 9.75,16.75 L2.25,16.75 C2.00718568,16.75 1.75,16.4413772 1.75,16 L1.75,2.5 C1.75,2.05862281 2.00718568,1.75 2.25,1.75 Z" fill-rule="nonzero"></path>
+                <circle cx="6" cy="14.25" r="1"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

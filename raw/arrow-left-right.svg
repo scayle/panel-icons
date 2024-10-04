@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>arrow-left-right</title>
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g fill="#414851" fill-rule="nonzero">
+            <path d="M9.01184464,16.1666667 L7.83333333,17.345178 L2.48815536,12 L7.83333333,6.65482203 L9.01184464,7.83333333 L5.67715536,11.165822 L18.3211554,11.165822 L14.9881554,7.83333333 L16.1666667,6.65482203 L21.5118446,12 L16.1666667,17.345178 L14.9881554,16.1666667 L18.3201554,12.832822 L5.67815536,12.832822 L9.01184464,16.1666667 Z"></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>stack</title>
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(3.000000, 3.000000)">
+            <rect x="0" y="0" width="18" height="18"></rect>
+            <g stroke-linecap="square" transform="translate(1.500000, 0.750000)" stroke="#414851" stroke-linejoin="round" stroke-width="1.4">
+                <polygon stroke-linecap="round" points="0 4.5 7.5 0 15 4.5 7.5 9"></polygon>
+                <polyline stroke-linecap="round" points="15 8.25 7.5 12.75 0 8.25"></polyline>
+                <polyline stroke-linecap="round" points="15 12 7.5 16.5 0 12"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>

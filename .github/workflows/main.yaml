@@ -1,0 +1,37 @@
+on:
+  # Release on push to main
+  # push:
+    # branches: [main]
+  # Release on manual trigger
+  workflow_dispatch:
+
+
+jobs:
+  release_job:
+    # Variable syntax below assumes Linux/Mac but could be easily adapted to Windows
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v4
+        with:
+          # Prevent the action from storing credentials in a way that's hard to override
+          persist-credentials: false
+
+      - name: Install dependencies
+        run: npm install
+
+      # Set the name, email, and URL with PAT
+      - name: Set git credentials
+        run: |
+          git config user.name "SCAYLE"
+          git config user.email "pascal.rieger@scayle.com"
+          git remote set-url origin "https://$REPO_PAT@github.com/scayle/panel-icons"
+        env:
+          REPO_PAT: ${{ secrets.REPO_PAT }}
+
+      # Pass the token on the command line for publishing
+      - name: Publish
+        run: npm run release -- --token "$NPM_TOKEN"
+        env:
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}

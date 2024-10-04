@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>chevron-double-up</title>
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(12.000000, 12.000000) rotate(-90.000000) translate(-12.000000, -12.000000) ">
+            <rect fill-opacity="0" fill="#FFFFFF" x="0" y="0" width="24" height="24"></rect>
+            <polygon fill="#414851" points="18 11.999624 16.849905 13.161768 13.045809 17 11.999998 15.943848 15.80335 12.106367 15.909123 11.999624 15.80335 11.893633 11.999998 8.055401 13.045809 7 16.849905 10.838232 16.954188 10.944223"></polygon>
+            <polygon fill="#414851" points="12 11.999624 10.849905 13.161768 7.045809 17 5.999998 15.943848 9.80335 12.106367 9.909123 11.999624 9.80335 11.893633 5.999998 8.055401 7.045809 7 10.849905 10.838232 10.954188 10.944223"></polygon>
+        </g>
+    </g>
+</svg>
