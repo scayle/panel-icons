@@ -25,7 +25,7 @@ jobs:
       - name: Set git credentials
         run: |
           git config user.name "SCAYLE"
-          git config user.email "pascal.rieger@scayle.com"
+          git config user.email "${{ vars.REPO_USER_EMAIL }}"
           git remote set-url origin "https://$REPO_PAT@github.com/scayle/panel-icons"
         env:
           REPO_PAT: ${{ secrets.REPO_PAT }}
