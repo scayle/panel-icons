@@ -1,6 +1,6 @@
 {
-  "type": "major",
-  "comment": "New Panel Icons V2 release",
+  "type": "patch",
+  "comment": "Config update",
   "packageName": "@scayle/panel-icons",
   "email": "pascal.rieger@scayle.com",
   "dependentChangeType": "patch"

@@ -1,6 +1,6 @@
 {
   "name": "@scayle/panel-icons",
-  "version": "1.4.2",
+  "version": "2.0.0",
   "description": "All the Panel icons you know and love",
   "homepage": "https://www.scayle.com/",
   "license": "MIT",
@@ -16,6 +16,7 @@
     "icons/*",
     "CHANGELOG.json",
     "CHANGELOG.md",
+    "index.js",
     "README.md"
   ],
   "keywords": [
