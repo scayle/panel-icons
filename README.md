@@ -26,7 +26,7 @@ Visit the [Add-On Developer Guide](https://scayle.dev/en/add-on-guide) to learn 
 
 Visit the [Docs](https://scayle.dev) to learn more about our system requirements.
 
-## What is Scayle ?
+## What is SCAYLE ?
 
 [SCAYLE](https://scayle.com) is a full-featured e-commerce software solution that comes with flexible APIs. Within SCAYLE, you can manage all aspects of your shop, such as products, stocks, customers, and transactions.
 
