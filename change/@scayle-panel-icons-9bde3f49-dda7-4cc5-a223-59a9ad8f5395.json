@@ -1,0 +1,7 @@
+{
+  "type": "minor",
+  "comment": "17 new icons",
+  "packageName": "@scayle/panel-icons",
+  "email": "pascal.rieger@scayle.com",
+  "dependentChangeType": "patch"
+}
