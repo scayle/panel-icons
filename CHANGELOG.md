@@ -1,8 +1,16 @@
 # Change Log - @scayle/panel-icons
 
-<!-- This log was last generated on Wed, 27 Nov 2024 12:58:32 GMT and should not be manually modified. -->
+<!-- This log was last generated on Wed, 27 Nov 2024 13:34:49 GMT and should not be manually modified. -->
 
 <!-- Start content -->
+
+## 2.1.1
+
+Wed, 27 Nov 2024 13:34:49 GMT
+
+### Patches
+
+- Update readme.md (pascal.rieger@scayle.com)
 
 ## 2.1.0
 

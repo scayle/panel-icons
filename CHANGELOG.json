@@ -2,6 +2,21 @@
   "name": "@scayle/panel-icons",
   "entries": [
     {
+      "date": "Wed, 27 Nov 2024 13:34:49 GMT",
+      "version": "2.1.1",
+      "tag": "@scayle/panel-icons_v2.1.1",
+      "comments": {
+        "patch": [
+          {
+            "author": "pascal.rieger@scayle.com",
+            "package": "@scayle/panel-icons",
+            "commit": "65181eff621e359b342a9f6a238e3237b4fab06e",
+            "comment": "Update readme.md"
+          }
+        ]
+      }
+    },
+    {
       "date": "Wed, 27 Nov 2024 12:58:32 GMT",
       "version": "2.1.0",
       "tag": "@scayle/panel-icons_v2.1.0",
