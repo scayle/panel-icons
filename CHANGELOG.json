@@ -2,6 +2,21 @@
   "name": "@scayle/panel-icons",
   "entries": [
     {
+      "date": "Fri, 29 Nov 2024 09:12:17 GMT",
+      "version": "2.2.0",
+      "tag": "@scayle/panel-icons_v2.2.0",
+      "comments": {
+        "minor": [
+          {
+            "author": "pascal.rieger@scayle.com",
+            "package": "@scayle/panel-icons",
+            "commit": "2b205090780035e51f7af304d6c7fbbaeb6dad06",
+            "comment": "Add shirt-download icon"
+          }
+        ]
+      }
+    },
+    {
       "date": "Wed, 27 Nov 2024 13:34:49 GMT",
       "version": "2.1.1",
       "tag": "@scayle/panel-icons_v2.1.1",

@@ -1,8 +1,16 @@
 # Change Log - @scayle/panel-icons
 
-<!-- This log was last generated on Wed, 27 Nov 2024 13:34:49 GMT and should not be manually modified. -->
+<!-- This log was last generated on Fri, 29 Nov 2024 09:12:17 GMT and should not be manually modified. -->
 
 <!-- Start content -->
+
+## 2.2.0
+
+Fri, 29 Nov 2024 09:12:17 GMT
+
+### Minor changes
+
+- Add shirt-download icon (pascal.rieger@scayle.com)
 
 ## 2.1.1
 
