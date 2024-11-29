@@ -293,6 +293,7 @@ It can also be combined with [unplugin-vue-components](https://github.com/antfu/
 | settings-wheel             | ![](./icons/settings-wheel.svg)             | `./icons/settings-wheel.svg`             | `<IconSettingsWheel class="icon" />`            |
 | share                      | ![](./icons/share.svg)                      | `./icons/share.svg`                      | `<IconShare class="icon" />`                    |
 | shirt                      | ![](./icons/shirt.svg)                      | `./icons/shirt.svg`                      | `<IconShirt class="icon" />`                    |
+| shirt-download             | ![](./icons/shirt-download.svg)             | `./icons/shirt-download.svg`             | `<IconShirtDownload class="icon" />`            |
 | shirt-new                  | ![](./icons/shirt-new.svg)                  | `./icons/shirt-new.svg`                  | `<IconShirtNew class="icon" />`                 |
 | shirt-success              | ![](./icons/shirt-success.svg)              | `./icons/shirt-success.svg`              | `<IconShirtSuccess class="icon" />`             |
 | shrink                     | ![](./icons/shrink.svg)                     | `./icons/shrink.svg`                     | `<IconShrink class="icon" />`                   |
@@ -362,7 +363,7 @@ It can also be combined with [unplugin-vue-components](https://github.com/antfu/
 | warning-circle-fill        | ![](./icons/warning-circle-fill.svg)        | `./icons/warning-circle-fill.svg`        | `<IconWarningCircleFill class="icon" />`        |
 | warning-fill               | ![](./icons/warning-fill.svg)               | `./icons/warning-fill.svg`               | `<IconWarningFill class="icon" />`              |
 | webhook                    | ![](./icons/webhook.svg)                    | `./icons/webhook.svg`                    | `<IconWebhook class="icon" />`                  |
-| world                      | ![](./icons/world.svg)                      | `./icons/world.svg`                      | `<IconXx class="icon" />`                       |
+| world                      | ![](./icons/world.svg)                      | `./icons/world.svg`                      | `<IconWorld class="icon" />`                    |
 
 ## Other channels
 
