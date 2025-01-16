@@ -1,8 +1,16 @@
 # Change Log - @scayle/panel-icons
 
-<!-- This log was last generated on Fri, 29 Nov 2024 09:12:17 GMT and should not be manually modified. -->
+<!-- This log was last generated on Thu, 16 Jan 2025 12:44:48 GMT and should not be manually modified. -->
 
 <!-- Start content -->
+
+## 3.0.0
+
+Thu, 16 Jan 2025 12:44:48 GMT
+
+### Major changes
+
+- Standardized size of individual Icons, added new Icons (pascal.rieger@scayle.com)
 
 ## 2.2.0
 

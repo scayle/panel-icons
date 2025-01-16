@@ -2,6 +2,21 @@
   "name": "@scayle/panel-icons",
   "entries": [
     {
+      "date": "Thu, 16 Jan 2025 12:44:48 GMT",
+      "version": "3.0.0",
+      "tag": "@scayle/panel-icons_v3.0.0",
+      "comments": {
+        "major": [
+          {
+            "author": "pascal.rieger@scayle.com",
+            "package": "@scayle/panel-icons",
+            "commit": "3db60a6ae49e57bce7f3fe28ee5961c894753c5c",
+            "comment": "Standardized size of individual Icons, added new Icons"
+          }
+        ]
+      }
+    },
+    {
       "date": "Fri, 29 Nov 2024 09:12:17 GMT",
       "version": "2.2.0",
       "tag": "@scayle/panel-icons_v2.2.0",
