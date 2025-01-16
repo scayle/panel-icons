@@ -1,0 +1,7 @@
+{
+  "type": "major",
+  "comment": "Standardized size of individual Icons, added new Icons",
+  "packageName": "@scayle/panel-icons",
+  "email": "pascal.rieger@scayle.com",
+  "dependentChangeType": "patch"
+}
