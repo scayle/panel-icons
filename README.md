@@ -42,7 +42,24 @@ npm i -S @scayle/panel-icons
 
 The `icons/` directory contains all the icon files as svg. Do what you want with them.
 
-## Upgrade guide from version 1.4.2 to 2.0
+## Upgrade guide from version 2.2.0 to 3.0.0
+
+To upgrade your panel-icons library, change the version for @scayle/panel-icons to "^3.0.0"
+
+#### The size of individual Icons has been standardized
+- carrier
+- list-view
+- loyalty
+- nested-list-view
+- sust-cotton
+- tile-view
+
+#### New icons
+- calculator
+- check-circle
+- revert
+
+## Upgrade guide from version 1.4.2 to 2.0.0
 
 To upgrade your panel-icons library, change the version for @scayle/panel-icons to "^2.0.0"
 
