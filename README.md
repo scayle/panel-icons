@@ -6,7 +6,7 @@
 
 <h4 align="center">
   <a href="https://scayle.dev">Documentation</a> |
-  <a href="https://scayle.com/">Website</a>
+  <a href="https://www.scayle.com/">Website</a>
 </h4>
 
 <p align="center">
@@ -14,7 +14,7 @@
 </p>
 
 <p align="center">
-  <a href="https://www.npmjs.com/package/@scayle/panel-icons"><img src="https://img.shields.io/badge/icons-222-success" alt="Latest Release"></a>
+  <a href="https://www.npmjs.com/package/@scayle/panel-icons"><img src="https://img.shields.io/badge/icons-222-success" alt="Icons counter"></a>
   <a href="https://www.npmjs.com/package/@scayle/panel-icons"><img src="https://img.shields.io/npm/v/@scayle/panel-icons" alt="Latest Release"></a>
   <a href="https://www.npmjs.com/package/@scayle/panel-icons"><img src="https://img.shields.io/npm/dt/@scayle/panel-icons" alt="Total Downloads"></a>
   <a href="#"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="SCAYLE's *Panel Icon Library* is released under the MIT license." /></a>
@@ -42,7 +42,24 @@ npm i -S @scayle/panel-icons
 
 The `icons/` directory contains all the icon files as svg. Do what you want with them.
 
-## Upgrade guide from version 1.4.2 to 2.0
+## Upgrade guide from version 2.2.0 to 3.0.0
+
+To upgrade your panel-icons library, change the version for @scayle/panel-icons to "^3.0.0"
+
+#### The size of individual Icons has been standardized
+- carrier
+- list-view
+- loyalty
+- nested-list-view
+- sust-cotton
+- tile-view
+
+#### New icons
+- calculator
+- check-circle
+- revert
+
+## Upgrade guide from version 1.4.2 to 2.0.0
 
 To upgrade your panel-icons library, change the version for @scayle/panel-icons to "^2.0.0"
 
@@ -156,6 +173,7 @@ It can also be combined with [unplugin-vue-components](https://github.com/antfu/
 | bookmark-off               | ![](./icons/bookmark-off.svg)               | `./icons/bookmark-off.svg`               | `<IconBookmarkOff class="icon" />`              |
 | box-search                 | ![](./icons/box-search.svg)                 | `./icons/box-search.svg`                 | `<IconBoxSearch class="icon" />`                |
 | box-success                | ![](./icons/box-success.svg)                | `./icons/box-success.svg`                | `<IconBoxSuccess class="icon" />`               |
+| calculator                 | ![](./icons/calculator.svg)                 | `./icons/calculator.svg`                 | `<IconCalculator class="icon" />`               |
 | calendar                   | ![](./icons/calendar.svg)                   | `./icons/calendar.svg`                   | `<IconCalendar class="icon" />`                 |
 | calendar-in                | ![](./icons/calendar-in.svg)                | `./icons/calendar-in.svg`                | `<IconCalendarIn class="icon" />`               |
 | calendar-out               | ![](./icons/calendar-out.svg)               | `./icons/calendar-out.svg`               | `<IconCalendarOut class="icon" />`              |
@@ -166,6 +184,7 @@ It can also be combined with [unplugin-vue-components](https://github.com/antfu/
 | chart-bars                 | ![](./icons/chart-bars.svg)                 | `./icons/chart-bars.svg`                 | `<IconChartBars class="icon" />`                |
 | chart-pie                  | ![](./icons/chart-pie.svg)                  | `./icons/chart-pie.svg`                  | `<IconChartPie class="icon" />`                 |
 | chat-bubbles               | ![](./icons/chat-bubbles.svg)               | `./icons/chat-bubbles.svg`               | `<IconChatBubbles class="icon" />`              |
+| check-circle               | ![](./icons/check-circle.svg)               | `./icons/check-circle.svg`               | `<IconCheckCircle class="icon" />`              |
 | checkmark                  | ![](./icons/checkmark.svg)                  | `./icons/checkmark.svg`                  | `<IconCheckmark class="icon" />`                |
 | checkout-settings          | ![](./icons/checkout-settings.svg)          | `./icons/checkout-settings.svg`          | `<IconCheckoutSettings class="icon" />`         |
 | chevron-double-down        | ![](./icons/chevron-double-down.svg)        | `./icons/chevron-double-down.svg`        | `<IconChevronDoubleDown class="icon" />`        |
@@ -281,6 +300,7 @@ It can also be combined with [unplugin-vue-components](https://github.com/antfu/
 | question-filled            | ![](./icons/question-filled.svg)            | `./icons/question-filled.svg`            | `<IconQuestionFilled class="icon" />`           |
 | refresh                    | ![](./icons/refresh.svg)                    | `./icons/refresh.svg`                    | `<IconRefresh class="icon" />`                  |
 | restore                    | ![](./icons/restore.svg)                    | `./icons/restore.svg`                    | `<IconRestore class="icon" />`                  |
+| revert                     | ![](./icons/revert.svg)                     | `./icons/revert.svg`                     | `<IconRevert class="icon" />`                   |
 | rule-engine                | ![](./icons/rule-engine.svg)                | `./icons/rule-engine.svg`                | `<IconRuleEngine class="icon" />`               |
 | save                       | ![](./icons/save.svg)                       | `./icons/save.svg`                       | `<IconSave class="icon" />`                     |
 | scan                       | ![](./icons/scan.svg)                       | `./icons/scan.svg`                       | `<IconScan class="icon" />`                     |
