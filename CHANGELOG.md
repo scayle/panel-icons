@@ -1,8 +1,16 @@
 # Change Log - @scayle/panel-icons
 
-<!-- This log was last generated on Thu, 16 Jan 2025 12:44:48 GMT and should not be manually modified. -->
+<!-- This log was last generated on Thu, 23 Jan 2025 10:18:36 GMT and should not be manually modified. -->
 
 <!-- Start content -->
+
+## 3.1.0
+
+Thu, 23 Jan 2025 10:18:36 GMT
+
+### Minor changes
+
+- Add payments icon (pascal.rieger@scayle.com)
 
 ## 3.0.0
 

@@ -2,6 +2,21 @@
   "name": "@scayle/panel-icons",
   "entries": [
     {
+      "date": "Thu, 23 Jan 2025 10:18:36 GMT",
+      "version": "3.1.0",
+      "tag": "@scayle/panel-icons_v3.1.0",
+      "comments": {
+        "minor": [
+          {
+            "author": "pascal.rieger@scayle.com",
+            "package": "@scayle/panel-icons",
+            "commit": "5a40c058bcfade5c4b235be8f104ff78de54e920",
+            "comment": "Add payments icon"
+          }
+        ]
+      }
+    },
+    {
       "date": "Thu, 16 Jan 2025 12:44:48 GMT",
       "version": "3.0.0",
       "tag": "@scayle/panel-icons_v3.0.0",
