@@ -5,7 +5,7 @@
 </h1>
 
 <h4 align="center">
-  <a href="https://scayle.dev">Documentation</a> |
+  <a href="https://scayle.dev/en/add-on-guide/getting-started/panel-icons-library">Documentation</a> |
   <a href="https://www.scayle.com/">Website</a>
 </h4>
 
@@ -14,7 +14,7 @@
 </p>
 
 <p align="center">
-  <a href="https://www.npmjs.com/package/@scayle/panel-icons"><img src="https://img.shields.io/badge/icons-222-success" alt="Icons counter"></a>
+  <a href="https://www.npmjs.com/package/@scayle/panel-icons"><img src="https://img.shields.io/badge/icons-243-success" alt="Icons counter"></a>
   <a href="https://www.npmjs.com/package/@scayle/panel-icons"><img src="https://img.shields.io/npm/v/@scayle/panel-icons" alt="Latest Release"></a>
   <a href="https://www.npmjs.com/package/@scayle/panel-icons"><img src="https://img.shields.io/npm/dt/@scayle/panel-icons" alt="Total Downloads"></a>
   <a href="#"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="SCAYLE's *Panel Icon Library* is released under the MIT license." /></a>
@@ -287,6 +287,7 @@ It can also be combined with [unplugin-vue-components](https://github.com/antfu/
 | parcel-search              | ![](./icons/parcel-search.svg)              | `./icons/parcel-search.svg`              | `<IconParcelSearch class="icon" />`             |
 | paste                      | ![](./icons/paste.svg)                      | `./icons/paste.svg`                      | `<IconPaste class="icon" />`                    |
 | pay                        | ![](./icons/pay.svg)                        | `./icons/pay.svg`                        | `<IconPay class="icon" />`                      |
+| payments                   | ![](./icons/payments.svg)                   | `./icons/payments.svg`                   | `<IconPayments class="icon" />`                 |
 | percentage                 | ![](./icons/percentage.svg)                 | `./icons/percentage.svg`                 | `<IconPercentage class="icon" />`               |
 | percentage-circle          | ![](./icons/percentage-circle.svg)          | `./icons/percentage-circle.svg`          | `<IconPercentageCircle class="icon" />`         |
 | phone                      | ![](./icons/phone.svg)                      | `./icons/phone.svg`                      | `<IconPhone class="icon" />`                    |
