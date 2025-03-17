@@ -1,0 +1,7 @@
+{
+  "type": "minor",
+  "comment": "Add 5 new icons: clock, device-tablet, git-branch, git-commit, loading",
+  "packageName": "@scayle/panel-icons",
+  "email": "pascal.rieger@scayle.com",
+  "dependentChangeType": "patch"
+}
