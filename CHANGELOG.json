@@ -2,6 +2,21 @@
   "name": "@scayle/panel-icons",
   "entries": [
     {
+      "date": "Mon, 17 Mar 2025 10:41:44 GMT",
+      "version": "3.2.0",
+      "tag": "@scayle/panel-icons_v3.2.0",
+      "comments": {
+        "minor": [
+          {
+            "author": "pascal.rieger@scayle.com",
+            "package": "@scayle/panel-icons",
+            "commit": "9bc15b9af355ac1fe9975adcc3b04efb8c245a9f",
+            "comment": "Add 5 new icons: clock, device-tablet, git-branch, git-commit, loading"
+          }
+        ]
+      }
+    },
+    {
       "date": "Thu, 23 Jan 2025 10:18:36 GMT",
       "version": "3.1.0",
       "tag": "@scayle/panel-icons_v3.1.0",

@@ -1,8 +1,16 @@
 # Change Log - @scayle/panel-icons
 
-<!-- This log was last generated on Thu, 23 Jan 2025 10:18:36 GMT and should not be manually modified. -->
+<!-- This log was last generated on Mon, 17 Mar 2025 10:41:44 GMT and should not be manually modified. -->
 
 <!-- Start content -->
+
+## 3.2.0
+
+Mon, 17 Mar 2025 10:41:44 GMT
+
+### Minor changes
+
+- Add 5 new icons: clock, device-tablet, git-branch, git-commit, loading (pascal.rieger@scayle.com)
 
 ## 3.1.0
 
