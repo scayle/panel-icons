@@ -1,7 +1,0 @@
-{
-  "type": "minor",
-  "comment": "Add new icon: key-permissions",
-  "packageName": "@scayle/panel-icons",
-  "email": "pascal.rieger@scayle.com",
-  "dependentChangeType": "patch"
-}

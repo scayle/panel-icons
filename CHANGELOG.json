@@ -2,6 +2,21 @@
   "name": "@scayle/panel-icons",
   "entries": [
     {
+      "date": "Tue, 27 May 2025 08:14:44 GMT",
+      "version": "3.3.0",
+      "tag": "@scayle/panel-icons_v3.3.0",
+      "comments": {
+        "minor": [
+          {
+            "author": "pascal.rieger@scayle.com",
+            "package": "@scayle/panel-icons",
+            "commit": "ebf1f201d2d7c9708d9b44e6fc69dfb7ec4d25e4",
+            "comment": "Add new icon: key-permissions"
+          }
+        ]
+      }
+    },
+    {
       "date": "Mon, 17 Mar 2025 10:41:44 GMT",
       "version": "3.2.0",
       "tag": "@scayle/panel-icons_v3.2.0",

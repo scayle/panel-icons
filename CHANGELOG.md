@@ -1,8 +1,16 @@
 # Change Log - @scayle/panel-icons
 
-<!-- This log was last generated on Mon, 17 Mar 2025 10:41:44 GMT and should not be manually modified. -->
+<!-- This log was last generated on Tue, 27 May 2025 08:14:44 GMT and should not be manually modified. -->
 
 <!-- Start content -->
+
+## 3.3.0
+
+Tue, 27 May 2025 08:14:44 GMT
+
+### Minor changes
+
+- Add new icon: key-permissions (pascal.rieger@scayle.com)
 
 ## 3.2.0
 
