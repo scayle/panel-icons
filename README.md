@@ -256,6 +256,7 @@ It can also be combined with [unplugin-vue-components](https://github.com/antfu/
 | invoice                    | ![](./icons/invoice.svg)                    | `./icons/invoice.svg`                    | `<IconInvoice class="icon" />`                  |
 | key                        | ![](./icons/key.svg)                        | `./icons/key.svg`                        | `<IconKey class="icon" />`                      |
 | key-framed                 | ![](./icons/key-framed.svg)                 | `./icons/key-framed.svg`                 | `<IconKeyFramed class="icon" />`                |
+| key-permissions            | ![](./icons/key-permissions.svg)            | `./icons/key-permissions.svg`            | `<IconKeyPermissions class="icon" />`           |
 | layout                     | ![](./icons/layout.svg)                     | `./icons/layout.svg`                     | `<IconLayout class="icon" />`                   |
 | link                       | ![](./icons/link.svg)                       | `./icons/link.svg`                       | `<IconLink class="icon" />`                     |
 | link-disconnect            | ![](./icons/link-disconnect.svg)            | `./icons/link-disconnect.svg`            | `<IconLinkDisconnect class="icon" />`           |
