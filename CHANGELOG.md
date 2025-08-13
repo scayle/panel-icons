@@ -1,8 +1,16 @@
 # Change Log - @scayle/panel-icons
 
-<!-- This log was last generated on Tue, 27 May 2025 08:14:44 GMT and should not be manually modified. -->
+<!-- This log was last generated on Wed, 13 Aug 2025 13:32:30 GMT and should not be manually modified. -->
 
 <!-- Start content -->
+
+## 3.4.0
+
+Wed, 13 Aug 2025 13:32:30 GMT
+
+### Minor changes
+
+- Add 8 marketplace icons (pascal.rieger@scayle.com)
 
 ## 3.3.0
 

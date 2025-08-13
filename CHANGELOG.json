@@ -2,6 +2,21 @@
   "name": "@scayle/panel-icons",
   "entries": [
     {
+      "date": "Wed, 13 Aug 2025 13:32:30 GMT",
+      "version": "3.4.0",
+      "tag": "@scayle/panel-icons_v3.4.0",
+      "comments": {
+        "minor": [
+          {
+            "author": "pascal.rieger@scayle.com",
+            "package": "@scayle/panel-icons",
+            "commit": "263caf41146c3155405ec8904dc25b21df870491",
+            "comment": "Add 8 marketplace icons"
+          }
+        ]
+      }
+    },
+    {
       "date": "Tue, 27 May 2025 08:14:44 GMT",
       "version": "3.3.0",
       "tag": "@scayle/panel-icons_v3.3.0",

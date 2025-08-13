@@ -1,7 +1,0 @@
-{
-  "type": "minor",
-  "comment": "Add 8 marketplace icons",
-  "packageName": "@scayle/panel-icons",
-  "email": "pascal.rieger@scayle.com",
-  "dependentChangeType": "patch"
-}
