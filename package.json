@@ -27,7 +27,7 @@
     "panel icons"
   ],
   "scripts": {
-    "build": "svgo -f ./raw -o ./icons --config svgo.config.js",
+    "build": "svgo -f ./raw -o ./icons --config svgo.config.js --exclude \"marketplace-\"",
     "change": "beachball change --no-commit --package=@scayle/panel-icons",
     "checkchange": "beachball check",
     "release": "beachball publish --access public"
