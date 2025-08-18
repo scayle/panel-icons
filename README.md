@@ -296,6 +296,7 @@ It can also be combined with [unplugin-vue-components](https://github.com/antfu/
 | outfit                     | ![](./icons/outfit.svg)                     | `./icons/outfit.svg`                     | `<IconOutfit class="icon" />`                   |
 | package                    | ![](./icons/package.svg)                    | `./icons/package.svg`                    | `<IconPackage class="icon" />`                  |
 | page                       | ![](./icons/page.svg)                       | `./icons/page.svg`                       | `<IconPage class="icon" />`                     |
+| pallet-boxes               | ![](./icons/pallet-boxes.svg)               | `./icons/pallet-boxes.svg`               | `<IconPalletBoxes class="icon" />`              |
 | parcel                     | ![](./icons/parcel.svg)                     | `./icons/parcel.svg`                     | `<IconParcel class="icon" />`                   |
 | parcel-down                | ![](./icons/parcel-down.svg)                | `./icons/parcel-down.svg`                | `<IconParcelDown class="icon" />`               |
 | parcel-search              | ![](./icons/parcel-search.svg)              | `./icons/parcel-search.svg`              | `<IconParcelSearch class="icon" />`             |
@@ -399,6 +400,7 @@ It can also be combined with [unplugin-vue-components](https://github.com/antfu/
 | warning-fill               | ![](./icons/warning-fill.svg)               | `./icons/warning-fill.svg`               | `<IconWarningFill class="icon" />`              |
 | webhook                    | ![](./icons/webhook.svg)                    | `./icons/webhook.svg`                    | `<IconWebhook class="icon" />`                  |
 | world                      | ![](./icons/world.svg)                      | `./icons/world.svg`                      | `<IconWorld class="icon" />`                    |
+| zeos                       | ![](./icons/zeos.svg)                       | `./icons/zeos.svg`                       | `<IconZeos class="icon" />`                     |
 
 ## Other channels
 
