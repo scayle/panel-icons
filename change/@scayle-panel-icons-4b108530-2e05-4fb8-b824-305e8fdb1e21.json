@@ -1,0 +1,7 @@
+{
+  "type": "patch",
+  "comment": "Fix new icons to make it color adjustable",
+  "packageName": "@scayle/panel-icons",
+  "email": "hector.gonzalez@scayle.com",
+  "dependentChangeType": "patch"
+}
