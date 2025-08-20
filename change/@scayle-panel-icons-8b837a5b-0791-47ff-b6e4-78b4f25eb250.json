@@ -1,7 +1,0 @@
-{
-  "type": "minor",
-  "comment": "Publish icons: ZEOS and pallet-boxes",
-  "packageName": "@scayle/panel-icons",
-  "email": "hector.gonzalez@scayle.com",
-  "dependentChangeType": "patch"
-}

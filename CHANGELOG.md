@@ -1,8 +1,16 @@
 # Change Log - @scayle/panel-icons
 
-<!-- This log was last generated on Wed, 13 Aug 2025 13:32:30 GMT and should not be manually modified. -->
+<!-- This log was last generated on Wed, 20 Aug 2025 13:18:28 GMT and should not be manually modified. -->
 
 <!-- Start content -->
+
+## 3.5.0
+
+Wed, 20 Aug 2025 13:18:28 GMT
+
+### Minor changes
+
+- Publish icons: ZEOS and pallet-boxes (hector.gonzalez@scayle.com)
 
 ## 3.4.0
 

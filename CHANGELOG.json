@@ -2,6 +2,21 @@
   "name": "@scayle/panel-icons",
   "entries": [
     {
+      "date": "Wed, 20 Aug 2025 13:18:28 GMT",
+      "version": "3.5.0",
+      "tag": "@scayle/panel-icons_v3.5.0",
+      "comments": {
+        "minor": [
+          {
+            "author": "hector.gonzalez@scayle.com",
+            "package": "@scayle/panel-icons",
+            "commit": "f76e70d68dea5cd79d9d08e40d1370e7ffb0b9e8",
+            "comment": "Publish icons: ZEOS and pallet-boxes"
+          }
+        ]
+      }
+    },
+    {
       "date": "Wed, 13 Aug 2025 13:32:30 GMT",
       "version": "3.4.0",
       "tag": "@scayle/panel-icons_v3.4.0",
