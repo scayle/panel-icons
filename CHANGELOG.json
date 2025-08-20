@@ -2,6 +2,21 @@
   "name": "@scayle/panel-icons",
   "entries": [
     {
+      "date": "Wed, 20 Aug 2025 14:58:02 GMT",
+      "version": "3.5.1",
+      "tag": "@scayle/panel-icons_v3.5.1",
+      "comments": {
+        "patch": [
+          {
+            "author": "hector.gonzalez@scayle.com",
+            "package": "@scayle/panel-icons",
+            "commit": "9f5ad697620fe46b4ff472bb72fd2a5ca2babf72",
+            "comment": "Fix new icons to make it color adjustable"
+          }
+        ]
+      }
+    },
+    {
       "date": "Wed, 20 Aug 2025 13:18:28 GMT",
       "version": "3.5.0",
       "tag": "@scayle/panel-icons_v3.5.0",

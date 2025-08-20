@@ -1,8 +1,16 @@
 # Change Log - @scayle/panel-icons
 
-<!-- This log was last generated on Wed, 20 Aug 2025 13:18:28 GMT and should not be manually modified. -->
+<!-- This log was last generated on Wed, 20 Aug 2025 14:58:02 GMT and should not be manually modified. -->
 
 <!-- Start content -->
+
+## 3.5.1
+
+Wed, 20 Aug 2025 14:58:02 GMT
+
+### Patches
+
+- Fix new icons to make it color adjustable (hector.gonzalez@scayle.com)
 
 ## 3.5.0
 
