@@ -1,0 +1,7 @@
+{
+  "type": "minor",
+  "comment": "Add 2 new SSO provider icons: google, azure",
+  "packageName": "@scayle/panel-icons",
+  "email": "raymond.rodrigues@scayle.com",
+  "dependentChangeType": "patch"
+}
