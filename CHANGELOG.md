@@ -1,8 +1,16 @@
 # Change Log - @scayle/panel-icons
 
-<!-- This log was last generated on Wed, 20 Aug 2025 14:58:02 GMT and should not be manually modified. -->
+<!-- This log was last generated on Tue, 26 Aug 2025 06:47:21 GMT and should not be manually modified. -->
 
 <!-- Start content -->
+
+## 3.6.0
+
+Tue, 26 Aug 2025 06:47:21 GMT
+
+### Minor changes
+
+- Add 2 new SSO provider icons: google, azure (raymond.rodrigues@scayle.com)
 
 ## 3.5.1
 

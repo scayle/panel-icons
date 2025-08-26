@@ -2,6 +2,21 @@
   "name": "@scayle/panel-icons",
   "entries": [
     {
+      "date": "Tue, 26 Aug 2025 06:47:21 GMT",
+      "version": "3.6.0",
+      "tag": "@scayle/panel-icons_v3.6.0",
+      "comments": {
+        "minor": [
+          {
+            "author": "raymond.rodrigues@scayle.com",
+            "package": "@scayle/panel-icons",
+            "commit": "c2f6c9a3e13fcf7cce2e910729ab9846427f8fd9",
+            "comment": "Add 2 new SSO provider icons: google, azure"
+          }
+        ]
+      }
+    },
+    {
       "date": "Wed, 20 Aug 2025 14:58:02 GMT",
       "version": "3.5.1",
       "tag": "@scayle/panel-icons_v3.5.1",
