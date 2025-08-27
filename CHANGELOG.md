@@ -1,8 +1,16 @@
 # Change Log - @scayle/panel-icons
 
-<!-- This log was last generated on Tue, 26 Aug 2025 06:47:21 GMT and should not be manually modified. -->
+<!-- This log was last generated on Wed, 27 Aug 2025 06:23:55 GMT and should not be manually modified. -->
 
 <!-- Start content -->
+
+## 3.6.1
+
+Wed, 27 Aug 2025 06:23:55 GMT
+
+### Patches
+
+- Remove XML declaration and namespace from SSO provider icons (raymond.rodrigues@scayle.com)
 
 ## 3.6.0
 

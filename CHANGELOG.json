@@ -2,6 +2,21 @@
   "name": "@scayle/panel-icons",
   "entries": [
     {
+      "date": "Wed, 27 Aug 2025 06:23:55 GMT",
+      "version": "3.6.1",
+      "tag": "@scayle/panel-icons_v3.6.1",
+      "comments": {
+        "patch": [
+          {
+            "author": "raymond.rodrigues@scayle.com",
+            "package": "@scayle/panel-icons",
+            "commit": "dae830b1b46e4bfa4c1198a2816c14e105afbad6",
+            "comment": "Remove XML declaration and namespace from SSO provider icons"
+          }
+        ]
+      }
+    },
+    {
       "date": "Tue, 26 Aug 2025 06:47:21 GMT",
       "version": "3.6.0",
       "tag": "@scayle/panel-icons_v3.6.0",
