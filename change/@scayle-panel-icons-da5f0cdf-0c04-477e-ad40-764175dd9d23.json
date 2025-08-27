@@ -1,0 +1,7 @@
+{
+  "type": "patch",
+  "comment": "Remove XML declaration and namespace from SSO provider icons",
+  "packageName": "@scayle/panel-icons",
+  "email": "raymond.rodrigues@scayle.com",
+  "dependentChangeType": "patch"
+}
