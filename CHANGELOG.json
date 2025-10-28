@@ -2,6 +2,21 @@
   "name": "@scayle/panel-icons",
   "entries": [
     {
+      "date": "Tue, 28 Oct 2025 14:28:24 GMT",
+      "version": "4.0.0",
+      "tag": "@scayle/panel-icons_v4.0.0",
+      "comments": {
+        "major": [
+          {
+            "author": "daniele.rapisarda@scayle.com",
+            "package": "@scayle/panel-icons",
+            "commit": "c5b784ec98feaddc02552344b50b922acc179ac4",
+            "comment": "Remove trademark related icons"
+          }
+        ]
+      }
+    },
+    {
       "date": "Wed, 27 Aug 2025 06:23:55 GMT",
       "version": "3.6.1",
       "tag": "@scayle/panel-icons_v3.6.1",

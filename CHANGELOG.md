@@ -1,8 +1,16 @@
 # Change Log - @scayle/panel-icons
 
-<!-- This log was last generated on Wed, 27 Aug 2025 06:23:55 GMT and should not be manually modified. -->
+<!-- This log was last generated on Tue, 28 Oct 2025 14:28:24 GMT and should not be manually modified. -->
 
 <!-- Start content -->
+
+## 4.0.0
+
+Tue, 28 Oct 2025 14:28:24 GMT
+
+### Major changes
+
+- Remove trademark related icons (daniele.rapisarda@scayle.com)
 
 ## 3.6.1
 

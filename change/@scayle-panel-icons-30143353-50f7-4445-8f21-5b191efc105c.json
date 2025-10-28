@@ -1,7 +1,0 @@
-{
-  "type": "major",
-  "comment": "Remove trademark related icons",
-  "packageName": "@scayle/panel-icons",
-  "email": "daniele.rapisarda@scayle.com",
-  "dependentChangeType": "patch"
-}
