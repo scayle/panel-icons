@@ -2,6 +2,21 @@
   "name": "@scayle/panel-icons",
   "entries": [
     {
+      "date": "Tue, 28 Oct 2025 16:06:54 GMT",
+      "version": "4.0.1",
+      "tag": "@scayle/panel-icons_v4.0.1",
+      "comments": {
+        "patch": [
+          {
+            "author": "pascal.rieger@scayle.com",
+            "package": "@scayle/panel-icons",
+            "commit": "811d08ac19d406da5526ed4571d362ef63e565d9",
+            "comment": "Add 9 new icons: code, logo-scayle, logo-tradebyte, logo-tradebyte-green, logo-tradebyte-grey, marketplaces, shop, sort-ascending, sort-descending, and update README.md."
+          }
+        ]
+      }
+    },
+    {
       "date": "Tue, 28 Oct 2025 14:28:24 GMT",
       "version": "4.0.0",
       "tag": "@scayle/panel-icons_v4.0.0",

@@ -1,8 +1,16 @@
 # Change Log - @scayle/panel-icons
 
-<!-- This log was last generated on Tue, 28 Oct 2025 14:28:24 GMT and should not be manually modified. -->
+<!-- This log was last generated on Tue, 28 Oct 2025 16:06:54 GMT and should not be manually modified. -->
 
 <!-- Start content -->
+
+## 4.0.1
+
+Tue, 28 Oct 2025 16:06:54 GMT
+
+### Patches
+
+- Add 9 new icons: code, logo-scayle, logo-tradebyte, logo-tradebyte-green, logo-tradebyte-grey, marketplaces, shop, sort-ascending, sort-descending, and update README.md. (pascal.rieger@scayle.com)
 
 ## 4.0.0
 
