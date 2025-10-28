@@ -1,0 +1,7 @@
+{
+  "type": "patch",
+  "comment": "Add 9 new icons: code, logo-scayle, logo-tradebyte, logo-tradebyte-green, logo-tradebyte-grey, marketplaces, shop, sort-ascending, sort-descending, and update README.md.",
+  "packageName": "@scayle/panel-icons",
+  "email": "pascal.rieger@scayle.com",
+  "dependentChangeType": "patch"
+}
