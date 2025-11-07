@@ -42,6 +42,40 @@ npm i -S @scayle/panel-icons
 
 The `icons/` directory contains all the icon files as svg. Do what you want with them.
 
+## Upgrade guide from version 3.0.0 to 4.0.1
+
+To upgrade your panel-icons library, change the version for @scayle/panel-icons to "^4.0.1"
+
+#### New icons in version 4.0.1
+- code
+- logo-scayle
+- logo-tradebyte
+- logo-tradebyte-green
+- logo-tradebyte-grey
+- marketplaces
+- shop
+- sort-ascending
+- sort-decending
+
+#### Breaking changes in version 4.0.0
+- Undocumented icons have been removed
+
+#### New icons in version 3.5.0
+- pallet-boxes
+
+#### New icons in version 3.3.0
+- key-permissions
+
+#### New icons in version 3.2.0
+- clock
+- device-tablet
+- git-branch
+- git-commit
+- loading
+
+#### New icons in version 3.1.0
+- payments
+
 ## Upgrade guide from version 2.2.0 to 3.0.0
 
 To upgrade your panel-icons library, change the version for @scayle/panel-icons to "^3.0.0"
