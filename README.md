@@ -14,7 +14,7 @@
 </p>
 
 <p align="center">
-  <a href="https://www.npmjs.com/package/@scayle/panel-icons"><img src="https://img.shields.io/badge/icons-243-success" alt="Icons counter"></a>
+  <a href="https://www.npmjs.com/package/@scayle/panel-icons"><img src="https://img.shields.io/badge/icons-244-success" alt="Icons counter"></a>
   <a href="https://www.npmjs.com/package/@scayle/panel-icons"><img src="https://img.shields.io/npm/v/@scayle/panel-icons" alt="Latest Release"></a>
   <a href="https://www.npmjs.com/package/@scayle/panel-icons"><img src="https://img.shields.io/npm/dt/@scayle/panel-icons" alt="Total Downloads"></a>
   <a href="#"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="SCAYLE's *Panel Icon Library* is released under the MIT license." /></a>
@@ -48,6 +48,7 @@ To upgrade your panel-icons library, change the version for @scayle/panel-icons 
 
 #### New icons in version 4.0.1
 - code
+- column-settings
 - logo-scayle
 - logo-tradebyte
 - logo-tradebyte-green
@@ -55,8 +56,7 @@ To upgrade your panel-icons library, change the version for @scayle/panel-icons 
 - marketplaces
 - shop
 - sort-ascending
-- sort-decending
-
+- sort-descending
 #### Breaking changes in version 4.0.0
 - Undocumented icons have been removed
 
@@ -236,6 +236,7 @@ It can also be combined with [unplugin-vue-components](https://github.com/antfu/
 | close                      | ![](./icons/close.svg)                      | `./icons/close.svg`                      | `<IconClose class="icon" />`                    |
 | cloud                      | ![](./icons/cloud.svg)                      | `./icons/cloud.svg`                      | `<IconCloud class="icon" />`                    |
 | code                       | ![](./icons/code.svg)                       | `./icons/code.svg`                       | `<IconCode class="icon" />`                     |
+| column-settings            | ![](./icons/column-settings.svg)            | `./icons/column-settings.svg`            | `<IconColumnSettings class="icon" />`           |
 | coffee                     | ![](./icons/coffee.svg)                     | `./icons/coffee.svg`                     | `<IconCoffee class="icon" />`                   |
 | connection-multi           | ![](./icons/connection-multi.svg)           | `./icons/connection-multi.svg`           | `<IconConnectionMulti class="icon" />`          |
 | contact-badge              | ![](./icons/contact-badge.svg)              | `./icons/contact-badge.svg`              | `<IconContactBadge class="icon" />`             |
