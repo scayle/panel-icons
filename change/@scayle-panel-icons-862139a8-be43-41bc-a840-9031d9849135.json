@@ -1,0 +1,7 @@
+{
+  "type": "minor",
+  "comment": "Add \"column-settings\" icon + Package updates",
+  "packageName": "@scayle/panel-icons",
+  "email": "daniele.rapisarda@scayle.com",
+  "dependentChangeType": "patch"
+}
