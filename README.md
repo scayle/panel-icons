@@ -14,7 +14,7 @@
 </p>
 
 <p align="center">
-  <a href="https://www.npmjs.com/package/@scayle/panel-icons"><img src="https://img.shields.io/badge/icons-244-success" alt="Icons counter"></a>
+  <a href="https://www.npmjs.com/package/@scayle/panel-icons"><img src="https://img.shields.io/badge/icons-245-success" alt="Icons counter"></a>
   <a href="https://www.npmjs.com/package/@scayle/panel-icons"><img src="https://img.shields.io/npm/v/@scayle/panel-icons" alt="Latest Release"></a>
   <a href="https://www.npmjs.com/package/@scayle/panel-icons"><img src="https://img.shields.io/npm/dt/@scayle/panel-icons" alt="Total Downloads"></a>
   <a href="#"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="SCAYLE's *Panel Icon Library* is released under the MIT license." /></a>
@@ -42,13 +42,19 @@ npm i -S @scayle/panel-icons
 
 The `icons/` directory contains all the icon files as svg. Do what you want with them.
 
-## Upgrade guide from version 3.0.0 to 4.0.1
+## Upgrade guide from version 3.0.0 to 4.2.0
 
-To upgrade your panel-icons library, change the version for @scayle/panel-icons to "^4.0.1"
+To upgrade your panel-icons library, change the version for @scayle/panel-icons to "^4.2.0"
+
+#### New icons in version 4.2.0
+- product-ai
+
+#### New icons in version 4.1.0
+- column-settings
 
 #### New icons in version 4.0.1
+- sort-descending
 - code
-- column-settings
 - logo-scayle
 - logo-tradebyte
 - logo-tradebyte-green
@@ -56,7 +62,7 @@ To upgrade your panel-icons library, change the version for @scayle/panel-icons 
 - marketplaces
 - shop
 - sort-ascending
-- sort-descending
+
 #### Breaking changes in version 4.0.0
 - Undocumented icons have been removed
 
@@ -344,6 +350,7 @@ It can also be combined with [unplugin-vue-components](https://github.com/antfu/
 | player-pause               | ![](./icons/player-pause.svg)               | `./icons/player-pause.svg`               | `<IconPlayerPause class="icon" />`              |
 | player-play                | ![](./icons/player-play.svg)                | `./icons/player-play.svg`                | `<IconPlayerPlay class="icon" />`               |
 | polaroid                   | ![](./icons/polaroid.svg)                   | `./icons/polaroid.svg`                   | `<IconPolaroid class="icon" />`                 |
+| product-ai                 | ![](./icons/product-ai.svg)                 | `./icons/product-ai.svg`                 | `<IconProductAi class="icon" />`                |
 | product-import             | ![](./icons/product-import.svg)             | `./icons/product-import.svg`             | `<IconProductImport class="icon" />`            |
 | question                   | ![](./icons/question.svg)                   | `./icons/question.svg`                   | `<IconQuestion class="icon" />`                 |
 | question-fill              | ![](./icons/question-fill.svg)              | `./icons/question-fill.svg`              | `<IconQuestionFill class="icon" />`             |
