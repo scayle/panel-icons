@@ -1,7 +1,0 @@
-{
-  "type": "minor",
-  "comment": "Product AI icon",
-  "packageName": "@scayle/panel-icons",
-  "email": "daniele.rapisarda@scayle.com",
-  "dependentChangeType": "patch"
-}
