@@ -14,7 +14,7 @@
 </p>
 
 <p align="center">
-  <a href="https://www.npmjs.com/package/@scayle/panel-icons"><img src="https://img.shields.io/badge/icons-245-success" alt="Icons counter"></a>
+  <a href="https://www.npmjs.com/package/@scayle/panel-icons"><img src="https://img.shields.io/badge/icons-248-success" alt="Icons counter"></a>
   <a href="https://www.npmjs.com/package/@scayle/panel-icons"><img src="https://img.shields.io/npm/v/@scayle/panel-icons" alt="Latest Release"></a>
   <a href="https://www.npmjs.com/package/@scayle/panel-icons"><img src="https://img.shields.io/npm/dt/@scayle/panel-icons" alt="Total Downloads"></a>
   <a href="#"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="SCAYLE's *Panel Icon Library* is released under the MIT license." /></a>
@@ -42,9 +42,14 @@ npm i -S @scayle/panel-icons
 
 The `icons/` directory contains all the icon files as svg. Do what you want with them.
 
-## Upgrade guide from version 3.0.0 to 4.2.0
+## Upgrade guide from version 3.0.0 to 4.3.0
 
-To upgrade your panel-icons library, change the version for @scayle/panel-icons to "^4.2.0"
+To upgrade your panel-icons library, change the version for @scayle/panel-icons to "^4.3.0"
+
+#### New icons in version 4.3.0
+- triangle-down
+- triangle-left
+- triangle-up
 
 #### New icons in version 4.2.0
 - product-ai
@@ -420,7 +425,10 @@ It can also be combined with [unplugin-vue-components](https://github.com/antfu/
 | trash                      | ![](./icons/trash.svg)                      | `./icons/trash.svg`                      | `<IconTrash class="icon" />`                    |
 | trend-down                 | ![](./icons/trend-down.svg)                 | `./icons/trend-down.svg`                 | `<IconTrendDown class="icon" />`                |
 | trend-up                   | ![](./icons/trend-up.svg)                   | `./icons/trend-up.svg`                   | `<IconTrendUp class="icon" />`                  |
+| triangle-down              | ![](./icons/triangle-down.svg)              | `./icons/triangle-down.svg`              | `<IconTriangleDown class="icon" />`             |
+| triangle-left              | ![](./icons/triangle-left.svg)              | `./icons/triangle-left.svg`              | `<IconTriangleLeft class="icon" />`             |
 | triangle-right             | ![](./icons/triangle-right.svg)             | `./icons/triangle-right.svg`             | `<IconTriangleRight class="icon" />`            |
+| triangle-up                | ![](./icons/triangle-up.svg)                | `./icons/triangle-up.svg`                | `<IconTriangleUp class="icon" />`               |
 | truck                      | ![](./icons/truck.svg)                      | `./icons/truck.svg`                      | `<IconTruck class="icon" />`                    |
 | two-fa-restore             | ![](./icons/two-fa-restore.svg)             | `./icons/two-fa-restore.svg`             | `<IconTwoFaRestore class="icon" />`             |
 | ufo                        | ![](./icons/ufo.svg)                        | `./icons/ufo.svg`                        | `<IconUfo class="icon" />`                      |

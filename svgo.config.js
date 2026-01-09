@@ -33,6 +33,7 @@ const mirroredIcons = [
     'text-left',
     'text-right',
     'translate',
+    'triangle-left',
     'triangle-right',
     'truck',
     'undo',
