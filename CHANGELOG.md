@@ -1,8 +1,16 @@
 # Change Log - @scayle/panel-icons
 
-<!-- This log was last generated on Wed, 07 Jan 2026 12:59:55 GMT and should not be manually modified. -->
+<!-- This log was last generated on Fri, 09 Jan 2026 16:22:23 GMT and should not be manually modified. -->
 
 <!-- Start content -->
+
+## 4.3.0
+
+Fri, 09 Jan 2026 16:22:23 GMT
+
+### Minor changes
+
+- Add triangle-up, triangle-down, triangle-left icons and update triangle-right (joao.mendonca@scayle.com)
 
 ## 4.2.0
 

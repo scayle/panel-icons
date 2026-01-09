@@ -2,6 +2,21 @@
   "name": "@scayle/panel-icons",
   "entries": [
     {
+      "date": "Fri, 09 Jan 2026 16:22:23 GMT",
+      "version": "4.3.0",
+      "tag": "@scayle/panel-icons_v4.3.0",
+      "comments": {
+        "minor": [
+          {
+            "author": "joao.mendonca@scayle.com",
+            "package": "@scayle/panel-icons",
+            "commit": "d78a74be8e0df1e92ec41dc49e569bf2a8dfe9de",
+            "comment": "Add triangle-up, triangle-down, triangle-left icons and update triangle-right"
+          }
+        ]
+      }
+    },
+    {
       "date": "Wed, 07 Jan 2026 12:59:55 GMT",
       "version": "4.2.0",
       "tag": "@scayle/panel-icons_v4.2.0",
