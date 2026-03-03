@@ -14,7 +14,7 @@
 </p>
 
 <p align="center">
-  <a href="https://www.npmjs.com/package/@scayle/panel-icons"><img src="https://img.shields.io/badge/icons-248-success" alt="Icons counter"></a>
+  <a href="https://www.npmjs.com/package/@scayle/panel-icons"><img src="https://img.shields.io/badge/icons-265-success" alt="Icons counter"></a>
   <a href="https://www.npmjs.com/package/@scayle/panel-icons"><img src="https://img.shields.io/npm/v/@scayle/panel-icons" alt="Latest Release"></a>
   <a href="https://www.npmjs.com/package/@scayle/panel-icons"><img src="https://img.shields.io/npm/dt/@scayle/panel-icons" alt="Total Downloads"></a>
   <a href="#"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="SCAYLE's *Panel Icon Library* is released under the MIT license." /></a>
@@ -42,9 +42,12 @@ npm i -S @scayle/panel-icons
 
 The `icons/` directory contains all the icon files as svg. Do what you want with them.
 
-## Upgrade guide from version 3.0.0 to 4.3.0
+## Upgrade guide from version 3.0.0 to 4.4.0
 
-To upgrade your panel-icons library, change the version for @scayle/panel-icons to "^4.3.0"
+To upgrade your panel-icons library, change the version for @scayle/panel-icons to "^4.4.0"
+
+#### New icons in version 4.4.0
+- block
 
 #### New icons in version 4.3.0
 - triangle-down
@@ -208,6 +211,7 @@ It can also be combined with [unplugin-vue-components](https://github.com/antfu/
 | attach                     | ![](./icons/attach.svg)                     | `./icons/attach.svg`                     | `<IconAttach class="icon" />`                   |
 | ban                        | ![](./icons/ban.svg)                        | `./icons/ban.svg`                        | `<IconBan class="icon" />`                      |
 | bars                       | ![](./icons/bars.svg)                       | `./icons/bars.svg`                       | `<IconBars class="icon" />`                     |
+| block                      | ![](./icons/block.svg)                      | `./icons/block.svg`                      | `<IconBlock class="icon" />`                    |
 | basket                     | ![](./icons/basket.svg)                     | `./icons/basket.svg`                     | `<IconBasket class="icon" />`                   |
 | bell                       | ![](./icons/bell.svg)                       | `./icons/bell.svg`                       | `<IconBell class="icon" />`                     |
 | bell-add                   | ![](./icons/bell-add.svg)                   | `./icons/bell-add.svg`                   | `<IconBellAdd class="icon" />`                  |
