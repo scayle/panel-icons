@@ -1,8 +1,16 @@
 # Change Log - @scayle/panel-icons
 
-<!-- This log was last generated on Fri, 09 Jan 2026 16:22:23 GMT and should not be manually modified. -->
+<!-- This log was last generated on Wed, 04 Mar 2026 12:27:41 GMT and should not be manually modified. -->
 
 <!-- Start content -->
+
+## 4.4.0
+
+Wed, 04 Mar 2026 12:27:41 GMT
+
+### Minor changes
+
+- add new add-on icon (daniel.junco@scayle.com)
 
 ## 4.3.0
 
