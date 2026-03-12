@@ -1,0 +1,7 @@
+{
+  "type": "minor",
+  "comment": "",
+  "packageName": "@scayle/panel-icons",
+  "email": "daniel.junco@scayle.com",
+  "dependentChangeType": "patch"
+}

@@ -1,12 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>bars</title>
-    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g fill="#414851">
-            <rect x="17.5" y="14" width="2.5" height="5" rx="1"></rect>
-            <rect x="8.5" y="6" width="2.5" height="13" rx="1"></rect>
-            <rect x="13" y="9" width="2.5" height="10" rx="1"></rect>
-            <rect x="4" y="12" width="2.5" height="7" rx="1"></rect>
-        </g>
-    </g>
+<svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M2.75 17.875H1.60416C1.22447 17.875 0.916664 18.1828 0.916664 18.5625C0.916664 18.9422 1.22447 19.25 1.60416 19.25H2.75H3.4375H8.47916H13.5208H18.5625H19.25H20.3958C20.7755 19.25 21.0833 18.9422 21.0833 18.5625C21.0833 18.1828 20.7755 17.875 20.3958 17.875H19.25V3.89583C19.25 3.263 18.737 2.75 18.1042 2.75H13.9792C13.3463 2.75 12.8333 3.263 12.8333 3.89583V7.79167H8.9375C8.30467 7.79167 7.79166 8.30467 7.79166 8.9375V12.8333H3.89583C3.263 12.8333 2.75 13.3463 2.75 13.9792V17.875ZM7.79166 17.875H4.125V14.2083H7.79166V17.875ZM12.8333 17.875H9.16666V13.5208V9.16667H12.8333V17.875ZM14.2083 8.47917V4.125H17.875V17.875H14.2083V8.47917Z" fill="currentColor"/>
 </svg>
