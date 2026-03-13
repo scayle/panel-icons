@@ -14,7 +14,7 @@
 </p>
 
 <p align="center">
-  <a href="https://www.npmjs.com/package/@scayle/panel-icons"><img src="https://img.shields.io/badge/icons-265-success" alt="Icons counter"></a>
+  <a href="https://www.npmjs.com/package/@scayle/panel-icons"><img src="https://img.shields.io/badge/icons-271-success" alt="Icons counter"></a>
   <a href="https://www.npmjs.com/package/@scayle/panel-icons"><img src="https://img.shields.io/npm/v/@scayle/panel-icons" alt="Latest Release"></a>
   <a href="https://www.npmjs.com/package/@scayle/panel-icons"><img src="https://img.shields.io/npm/dt/@scayle/panel-icons" alt="Total Downloads"></a>
   <a href="#"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="SCAYLE's *Panel Icon Library* is released under the MIT license." /></a>
@@ -42,9 +42,19 @@ npm i -S @scayle/panel-icons
 
 The `icons/` directory contains all the icon files as svg. Do what you want with them.
 
-## Upgrade guide from version 3.0.0 to 4.4.0
+## Upgrade guide from version 3.0.0 to 4.5.0
 
-To upgrade your panel-icons library, change the version for @scayle/panel-icons to "^4.4.0"
+To upgrade your panel-icons library, change the version for @scayle/panel-icons to "^4.5.0"
+
+#### New icons in version 4.5.0
+- bars
+- blocks
+- lightning
+- marketing
+- networking
+- reports
+- shirt
+- upload
 
 #### New icons in version 4.4.0
 - block
@@ -212,6 +222,7 @@ It can also be combined with [unplugin-vue-components](https://github.com/antfu/
 | ban                        | ![](./icons/ban.svg)                        | `./icons/ban.svg`                        | `<IconBan class="icon" />`                      |
 | bars                       | ![](./icons/bars.svg)                       | `./icons/bars.svg`                       | `<IconBars class="icon" />`                     |
 | block                      | ![](./icons/block.svg)                      | `./icons/block.svg`                      | `<IconBlock class="icon" />`                    |
+| blocks                     | ![](./icons/blocks.svg)                     | `./icons/blocks.svg`                     | `<IconBlocks class="icon" />`                   |
 | basket                     | ![](./icons/basket.svg)                     | `./icons/basket.svg`                     | `<IconBasket class="icon" />`                   |
 | bell                       | ![](./icons/bell.svg)                       | `./icons/bell.svg`                       | `<IconBell class="icon" />`                     |
 | bell-add                   | ![](./icons/bell-add.svg)                   | `./icons/bell-add.svg`                   | `<IconBellAdd class="icon" />`                  |
@@ -313,6 +324,7 @@ It can also be combined with [unplugin-vue-components](https://github.com/antfu/
 | link-disconnect            | ![](./icons/link-disconnect.svg)            | `./icons/link-disconnect.svg`            | `<IconLinkDisconnect class="icon" />`           |
 | list-attributes            | ![](./icons/list-attributes.svg)            | `./icons/list-attributes.svg`            | `<IconListAttributes class="icon" />`           |
 | list-view                  | ![](./icons/list-view.svg)                  | `./icons/list-view.svg`                  | `<IconListView class="icon" />`                 |
+| lightning                  | ![](./icons/lightning.svg)                  | `./icons/lightning.svg`                  | `<IconLightning class="icon" />`                |
 | loading                    | ![](./icons/loading.svg)                    | `./icons/loading.svg`                    | `<IconLoading class="icon" />`                  |
 | location                   | ![](./icons/location.svg)                   | `./icons/location.svg`                   | `<IconLocation class="icon" />`                 |
 | lock                       | ![](./icons/lock.svg)                       | `./icons/lock.svg`                       | `<IconLock class="icon" />`                     |
@@ -329,6 +341,7 @@ It can also be combined with [unplugin-vue-components](https://github.com/antfu/
 | luxury                     | ![](./icons/luxury.svg)                     | `./icons/luxury.svg`                     | `<IconLuxury class="icon" />`                   |
 | magic-wand                 | ![](./icons/magic-wand.svg)                 | `./icons/magic-wand.svg`                 | `<IconMagicWand class="icon" />`                |
 | mail-error                 | ![](./icons/mail-error.svg)                 | `./icons/mail-error.svg`                 | `<IconMailError class="icon" />`                |
+| marketing                  | ![](./icons/marketing.svg)                  | `./icons/marketing.svg`                  | `<IconMarketing class="icon" />`               |
 | marketplace-aboutyou       | ![](./icons/marketplace-aboutyou.svg)       | `./icons/marketplace-aboutyou.svg`       | `<IconMarketplaceAboutyou class="icon" />`      |
 | marketplaces               | ![](./icons/marketplaces.svg)               | `./icons/marketplaces.svg`               | `<IconMarketplaces class="icon" />`             |
 | menu                       | ![](./icons/menu.svg)                       | `./icons/menu.svg`                       | `<IconMenu class="icon" />`                     |
@@ -337,6 +350,7 @@ It can also be combined with [unplugin-vue-components](https://github.com/antfu/
 | more                       | ![](./icons/more.svg)                       | `./icons/more.svg`                       | `<IconMore class="icon" />`                     |
 | more-horizontal            | ![](./icons/more-horizontal.svg)            | `./icons/more-horizontal.svg`            | `<IconMoreHorizontal class="icon" />`           |
 | nested-list-view           | ![](./icons/nested-list-view.svg)           | `./icons/nested-list-view.svg`           | `<IconNestedListView class="icon" />`           |
+| networking                 | ![](./icons/networking.svg)                 | `./icons/networking.svg`                 | `<IconNetworking class="icon" />`             |
 | notes                      | ![](./icons/notes.svg)                      | `./icons/notes.svg`                      | `<IconNotes class="icon" />`                    |
 | off                        | ![](./icons/off.svg)                        | `./icons/off.svg`                        | `<IconOff class="icon" />`                      |
 | office                     | ![](./icons/office.svg)                     | `./icons/office.svg`                     | `<IconOffice class="icon" />`                   |
@@ -365,6 +379,7 @@ It can also be combined with [unplugin-vue-components](https://github.com/antfu/
 | question-fill              | ![](./icons/question-fill.svg)              | `./icons/question-fill.svg`              | `<IconQuestionFill class="icon" />`             |
 | question-filled            | ![](./icons/question-filled.svg)            | `./icons/question-filled.svg`            | `<IconQuestionFilled class="icon" />`           |
 | refresh                    | ![](./icons/refresh.svg)                    | `./icons/refresh.svg`                    | `<IconRefresh class="icon" />`                  |
+| reports                    | ![](./icons/reports.svg)                    | `./icons/reports.svg`                    | `<IconReports class="icon" />`                  |
 | restore                    | ![](./icons/restore.svg)                    | `./icons/restore.svg`                    | `<IconRestore class="icon" />`                  |
 | revert                     | ![](./icons/revert.svg)                     | `./icons/revert.svg`                     | `<IconRevert class="icon" />`                   |
 | rule-engine                | ![](./icons/rule-engine.svg)                | `./icons/rule-engine.svg`                | `<IconRuleEngine class="icon" />`               |
@@ -437,6 +452,7 @@ It can also be combined with [unplugin-vue-components](https://github.com/antfu/
 | two-fa-restore             | ![](./icons/two-fa-restore.svg)             | `./icons/two-fa-restore.svg`             | `<IconTwoFaRestore class="icon" />`             |
 | ufo                        | ![](./icons/ufo.svg)                        | `./icons/ufo.svg`                        | `<IconUfo class="icon" />`                      |
 | undo                       | ![](./icons/undo.svg)                       | `./icons/undo.svg`                       | `<IconUndo class="icon" />`                     |
+| upload                     | ![](./icons/upload.svg)                     | `./icons/upload.svg`                     | `<IconUpload class="icon" />`                   |
 | user                       | ![](./icons/user.svg)                       | `./icons/user.svg`                       | `<IconUser class="icon" />`                     |
 | user-add                   | ![](./icons/user-add.svg)                   | `./icons/user-add.svg`                   | `<IconUserAdd class="icon" />`                  |
 | user-edit                  | ![](./icons/user-edit.svg)                  | `./icons/user-edit.svg`                  | `<IconUserEdit class="icon" />`                 |
@@ -453,6 +469,7 @@ It can also be combined with [unplugin-vue-components](https://github.com/antfu/
 | warning-circle-fill        | ![](./icons/warning-circle-fill.svg)        | `./icons/warning-circle-fill.svg`        | `<IconWarningCircleFill class="icon" />`        |
 | warning-fill               | ![](./icons/warning-fill.svg)               | `./icons/warning-fill.svg`               | `<IconWarningFill class="icon" />`              |
 | webhook                    | ![](./icons/webhook.svg)                    | `./icons/webhook.svg`                    | `<IconWebhook class="icon" />`                  |
+| world                      | ![](./icons/world.svg)                      | `./icons/world.svg`                      | `<IconWorld class="icon" />`                    |
 
 ## Other channels
 
