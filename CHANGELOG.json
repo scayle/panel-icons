@@ -2,6 +2,21 @@
   "name": "@scayle/panel-icons",
   "entries": [
     {
+      "date": "Fri, 13 Mar 2026 09:16:34 GMT",
+      "version": "4.5.0",
+      "tag": "@scayle/panel-icons_v4.5.0",
+      "comments": {
+        "minor": [
+          {
+            "author": "daniel.junco@scayle.com",
+            "package": "@scayle/panel-icons",
+            "commit": "769a8efdd67dfd8cca91c00cedc370d7f1948b1a",
+            "comment": ""
+          }
+        ]
+      }
+    },
+    {
       "date": "Wed, 04 Mar 2026 12:27:41 GMT",
       "version": "4.4.0",
       "tag": "@scayle/panel-icons_v4.4.0",
