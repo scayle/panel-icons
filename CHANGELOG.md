@@ -1,8 +1,16 @@
 # Change Log - @scayle/panel-icons
 
-<!-- This log was last generated on Fri, 13 Mar 2026 09:16:34 GMT and should not be manually modified. -->
+<!-- This log was last generated on Fri, 17 Apr 2026 10:19:27 GMT and should not be manually modified. -->
 
 <!-- Start content -->
+
+## 4.6.0
+
+Fri, 17 Apr 2026 10:19:27 GMT
+
+### Minor changes
+
+- add flame icon (daniel.junco@scayle.com)
 
 ## 4.5.0
 

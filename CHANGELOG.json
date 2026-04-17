@@ -2,6 +2,21 @@
   "name": "@scayle/panel-icons",
   "entries": [
     {
+      "date": "Fri, 17 Apr 2026 10:19:27 GMT",
+      "version": "4.6.0",
+      "tag": "@scayle/panel-icons_v4.6.0",
+      "comments": {
+        "minor": [
+          {
+            "author": "daniel.junco@scayle.com",
+            "package": "@scayle/panel-icons",
+            "commit": "f3907bdd6cf695d415222c892ab31b9178c07873",
+            "comment": "add flame icon"
+          }
+        ]
+      }
+    },
+    {
       "date": "Fri, 13 Mar 2026 09:16:34 GMT",
       "version": "4.5.0",
       "tag": "@scayle/panel-icons_v4.5.0",
