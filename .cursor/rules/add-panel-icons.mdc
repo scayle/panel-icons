@@ -1,0 +1,78 @@
+---
+description: Add new panel icons and keep README in sync
+globs: 
+alwaysApply: false
+---
+
+# Add new Panel Icons
+
+When the user asks to add new icon(s) to the panel-icons library, follow this workflow.
+
+## 1. Get the SVG and name
+
+- Ask the user for each new icon:
+  - The **SVG content** (full markup).
+  - The **icon name** in kebab-case (e.g. `my-new-icon`).
+- If multiple icons are added in one go, collect all names and SVGs before writing files.
+
+## 2. Ensure fill is currentColor
+
+- Before writing any SVG file, ensure fill uses `currentColor` so icons inherit text color.
+- Set `fill="currentColor"` on the root `<svg>` element, or on any `<path>` / shape that should be colored. Replace hardcoded fills (e.g. `#000`, `black`) with `currentColor` where appropriate.
+- Write the corrected SVG to disk.
+
+## 3. Place files and build
+
+- Before saving, **remove XML tags** from the SVG (e.g. `<?xml version="1.0" encoding="UTF-8"?>`). Leaving them in can cause warnings later in the pipeline.
+- Save each SVG as **`raw/<name>.svg`** (e.g. `raw/my-new-icon.svg`).
+- Run **`npm run build`** so SVGO produces the optimized icons in **`icons/`**. Do not manually copy into `icons/`; the build step does that.
+- If build fails, fix any SVG or config issues before continuing.
+
+## 4. User creates the change file
+
+- **Do not run `npm run change` yourself.** Instruct the user to run **`npm run change`** (and if it fails, to run **`npm install`** first, then try again).
+- Wait for the user to confirm that the change file has been created in the **`change/`** folder (or check for a new file in `change/` when continuing).
+- **Using the change file** to drive README updates:
+  - Open the change file in `change/` (e.g. `change/@scayle-panel-icons-*.json`). It contains:
+    - **`type`**: `"major"`, `"minor"`, or `"patch"` — this determines the version bump.
+    - **`comment`**: often mentions the new icon name(s); use this and the icons you added to build the “New icons” list.
+  - Read the current **`version`** from **`package.json`** (e.g. `4.3.0`). Compute the **new version** to bump to:
+    - **patch**: increment patch (e.g. `4.3.0` → `4.3.1`).
+    - **minor**: increment minor, reset patch (e.g. `4.3.0` → `4.4.0`).
+    - **major**: increment major, reset minor and patch (e.g. `4.3.0` → `5.0.0`).
+  - Use this **new version** (the one we’re updating to) for all README upgrade guide updates in section 5.
+
+## 5. Update the README
+
+After the change file exists, update **README.md** to match existing patterns:
+
+### 5.1 Icons count badge
+
+- In the badges section (near the top), update the icons count badge so the number matches the total number of icons in `icons/`.
+- Pattern: `https://img.shields.io/badge/icons-<COUNT>-success` (e.g. `icons-249-success` if there are 249 icons).
+
+### 5.2 Icons table
+
+- In the **## Icons** section, add one row per new icon.
+- Keep the same structure as existing rows:
+  - **Name**: kebab-case name, padded with spaces so the column aligns (same width as other names in the table).
+  - **Icon**: `![](./icons/<name>.svg)` with consistent padding.
+  - **Filename**: `` `./icons/<name>.svg` `` with consistent padding.
+  - **Vue**: `` `<IconPascalCase class="icon" />` `` where PascalCase is the icon name with each hyphen-segment capitalized (e.g. `my-new-icon` → `IconMyNewIcon`).
+- Insert new rows in **alphabetical order** by icon name so the table stays sorted.
+- Preserve the existing header and separator rows and the rest of the table formatting.
+
+### 5.3 Upgrade guide
+
+- The **“## Upgrade guide from version 3.0.0 to Y.Y.Y”** section at the top must refer to the version **we are updating to**: **Y.Y.Y** is the **new version** you computed from the change file (section 4).
+- Update the next line to: **To upgrade your panel-icons library, change the version for @scayle/panel-icons to "^&lt;new&gt;"** (e.g. `"^4.4.0"`).
+- Add or update the subsection: **#### New icons in version &lt;new&gt;** (e.g. `#### New icons in version 4.4.0`).
+- Under it, add a bullet list of the new icon names in kebab-case, one per line (e.g. `- block`). Use the change file’s `comment` and the icons you added to build this list.
+
+## Summary
+
+1. Ask for SVG content and kebab-case name(s).
+2. Set fill to `currentColor` in the SVG; remove XML tags (e.g. `<?xml ...?>`); write to `raw/<name>.svg`.
+3. Run `npm run build` to update `icons/`.
+4. **User** runs `npm run change` (remind them to run `npm install` if it fails). You use the new file in `change/` to get `type` and compute the new version (patch/minor/major bump from `package.json`).
+5. Update README: badge count; Icons table (new rows, alphabetical); Upgrade guide — set the **top** “## Upgrade guide from version &lt;previous&gt; to &lt;new&gt;” to the version we’re updating to, and add “#### New icons in version &lt;new&gt;” with the new icon list.
