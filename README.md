@@ -14,7 +14,7 @@
 </p>
 
 <p align="center">
-  <a href="https://www.npmjs.com/package/@scayle/panel-icons"><img src="https://img.shields.io/badge/icons-272-success" alt="Icons counter"></a>
+  <a href="https://www.npmjs.com/package/@scayle/panel-icons"><img src="https://img.shields.io/badge/icons-274-success" alt="Icons counter"></a>
   <a href="https://www.npmjs.com/package/@scayle/panel-icons"><img src="https://img.shields.io/npm/v/@scayle/panel-icons" alt="Latest Release"></a>
   <a href="https://www.npmjs.com/package/@scayle/panel-icons"><img src="https://img.shields.io/npm/dt/@scayle/panel-icons" alt="Total Downloads"></a>
   <a href="#"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="SCAYLE's *Panel Icon Library* is released under the MIT license." /></a>
@@ -349,6 +349,7 @@ It can also be combined with [unplugin-vue-components](https://github.com/antfu/
 | marketplace-aboutyou       | ![](./icons/marketplace-aboutyou.svg)       | `./icons/marketplace-aboutyou.svg`       | `<IconMarketplaceAboutyou class="icon" />`      |
 | marketplaces               | ![](./icons/marketplaces.svg)               | `./icons/marketplaces.svg`               | `<IconMarketplaces class="icon" />`             |
 | menu                       | ![](./icons/menu.svg)                       | `./icons/menu.svg`                       | `<IconMenu class="icon" />`                     |
+| microphone                 | ![](./icons/microphone.svg)                 | `./icons/microphone.svg`                 | `<IconMicrophone class="icon" />`               |
 | minus                      | ![](./icons/minus.svg)                      | `./icons/minus.svg`                      | `<IconMinus class="icon" />`                    |
 | money                      | ![](./icons/money.svg)                      | `./icons/money.svg`                      | `<IconMoney class="icon" />`                    |
 | more                       | ![](./icons/more.svg)                       | `./icons/more.svg`                       | `<IconMore class="icon" />`                     |
@@ -416,6 +417,7 @@ It can also be combined with [unplugin-vue-components](https://github.com/antfu/
 | stack                      | ![](./icons/stack.svg)                      | `./icons/stack.svg`                      | `<IconStack class="icon" />`                    |
 | star                       | ![](./icons/star.svg)                       | `./icons/star.svg`                       | `<IconStar class="icon" />`                     |
 | star-fill                  | ![](./icons/star-fill.svg)                  | `./icons/star-fill.svg`                  | `<IconStarFill class="icon" />`                 |
+| stop                       | ![](./icons/stop.svg)                       | `./icons/stop.svg`                       | `<IconStop class="icon" />`                     |
 | stopwatch                  | ![](./icons/stopwatch.svg)                  | `./icons/stopwatch.svg`                  | `<IconStopwatch class="icon" />`                |
 | store                      | ![](./icons/store.svg)                      | `./icons/store.svg`                      | `<IconStore class="icon" />`                    |
 | store-location             | ![](./icons/store-location.svg)             | `./icons/store-location.svg`             | `<IconStoreLocation class="icon" />`            |
