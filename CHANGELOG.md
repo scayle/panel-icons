@@ -1,8 +1,16 @@
 # Change Log - @scayle/panel-icons
 
-<!-- This log was last generated on Fri, 17 Apr 2026 10:19:27 GMT and should not be manually modified. -->
+<!-- This log was last generated on Wed, 06 May 2026 10:12:02 GMT and should not be manually modified. -->
 
 <!-- Start content -->
+
+## 4.7.0
+
+Wed, 06 May 2026 10:12:02 GMT
+
+### Minor changes
+
+- AYCUP-6242 - Add two new icons necessary for customer segementation (kaloyan.yosifov@scayle.com)
 
 ## 4.6.0
 

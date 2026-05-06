@@ -1,7 +1,0 @@
-{
-  "type": "minor",
-  "comment": "AYCUP-6242 - Add two new icons necessary for customer segementation",
-  "packageName": "@scayle/panel-icons",
-  "email": "kaloyan.yosifov@scayle.com",
-  "dependentChangeType": "patch"
-}

@@ -2,6 +2,21 @@
   "name": "@scayle/panel-icons",
   "entries": [
     {
+      "date": "Wed, 06 May 2026 10:12:02 GMT",
+      "version": "4.7.0",
+      "tag": "@scayle/panel-icons_v4.7.0",
+      "comments": {
+        "minor": [
+          {
+            "author": "kaloyan.yosifov@scayle.com",
+            "package": "@scayle/panel-icons",
+            "commit": "57ae69521f22310e3d7438c7312b66626e42bda4",
+            "comment": "AYCUP-6242 - Add two new icons necessary for customer segementation"
+          }
+        ]
+      }
+    },
+    {
       "date": "Fri, 17 Apr 2026 10:19:27 GMT",
       "version": "4.6.0",
       "tag": "@scayle/panel-icons_v4.6.0",
