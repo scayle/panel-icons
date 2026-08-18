@@ -14,7 +14,7 @@
 </p>
 
 <p align="center">
-  <a href="https://www.npmjs.com/package/@scayle/panel-icons"><img src="https://img.shields.io/badge/icons-274-success" alt="Icons counter"></a>
+  <a href="https://www.npmjs.com/package/@scayle/panel-icons"><img src="https://img.shields.io/badge/icons-275-success" alt="Icons counter"></a>
   <a href="https://www.npmjs.com/package/@scayle/panel-icons"><img src="https://img.shields.io/npm/v/@scayle/panel-icons" alt="Latest Release"></a>
   <a href="https://www.npmjs.com/package/@scayle/panel-icons"><img src="https://img.shields.io/npm/dt/@scayle/panel-icons" alt="Total Downloads"></a>
   <a href="#"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="SCAYLE's *Panel Icon Library* is released under the MIT license." /></a>
@@ -42,9 +42,16 @@ npm i -S @scayle/panel-icons
 
 The `icons/` directory contains all the icon files as svg. Do what you want with them.
 
-## Upgrade guide from version 3.0.0 to 4.6.0
+## Upgrade guide from version 3.0.0 to 4.8.0
 
-To upgrade your panel-icons library, change the version for @scayle/panel-icons to "^4.6.0"
+To upgrade your panel-icons library, change the version for @scayle/panel-icons to "^4.8.0"
+
+#### New icons in version 4.8.0
+- image-alt
+
+#### New icons in version 4.7.0
+- microphone
+- stop
 
 #### New icons in version 4.6.0
 - flame
@@ -314,6 +321,7 @@ It can also be combined with [unplugin-vue-components](https://github.com/antfu/
 | heart                      | ![](./icons/heart.svg)                      | `./icons/heart.svg`                      | `<IconHeart class="icon" />`                    |
 | heart-fill                 | ![](./icons/heart-fill.svg)                 | `./icons/heart-fill.svg`                 | `<IconHeartFill class="icon" />`                |
 | id                         | ![](./icons/id.svg)                         | `./icons/id.svg`                         | `<IconId class="icon" />`                       |
+| image-alt                  | ![](./icons/image-alt.svg)                  | `./icons/image-alt.svg`                  | `<IconImageAlt class="icon" />`                 |
 | image-single               | ![](./icons/image-single.svg)               | `./icons/image-single.svg`               | `<IconImageSingle class="icon" />`              |
 | image-stacked              | ![](./icons/image-stacked.svg)              | `./icons/image-stacked.svg`              | `<IconImageStacked class="icon" />`             |
 | import                     | ![](./icons/import.svg)                     | `./icons/import.svg`                     | `<IconImport class="icon" />`                   |

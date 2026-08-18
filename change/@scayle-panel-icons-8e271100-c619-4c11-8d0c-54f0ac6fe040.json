@@ -1,0 +1,7 @@
+{
+  "type": "minor",
+  "comment": "AYCP-20528 - add image-alt icon",
+  "packageName": "@scayle/panel-icons",
+  "email": "daniel.junco@scayle.com",
+  "dependentChangeType": "patch"
+}
