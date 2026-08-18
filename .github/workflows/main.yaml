@@ -1,3 +1,5 @@
+name: Release
+
 on:
   # Release on push to main
   # push:
@@ -5,10 +7,14 @@ on:
   # Release on manual trigger
   workflow_dispatch:
 
+# Required for npm Trusted Publishing (OIDC). Do not pass NPM_TOKEN to
+# `npm publish` — a token with 2FA enabled causes EOTP in CI.
+permissions:
+  id-token: write
+  contents: read
 
 jobs:
   release_job:
-    # Variable syntax below assumes Linux/Mac but could be easily adapted to Windows
     runs-on: ubuntu-latest
 
     steps:
@@ -17,6 +23,16 @@ jobs:
         with:
           # Prevent the action from storing credentials in a way that's hard to override
           persist-credentials: false
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+          # Do not set registry-url here. It writes an .npmrc auth token that
+          # blocks OIDC trusted publishing if NODE_AUTH_TOKEN is empty.
+
+      - name: Update npm
+        run: npm install -g npm@latest
 
       - name: Install dependencies
         run: npm install
@@ -30,8 +46,5 @@ jobs:
         env:
           REPO_PAT: ${{ secrets.REPO_PAT }}
 
-      # Pass the token on the command line for publishing
       - name: Publish
-        run: npm run release -- --token "$NPM_TOKEN"
-        env:
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: npm run release
