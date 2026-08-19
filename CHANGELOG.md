@@ -1,8 +1,16 @@
 # Change Log - @scayle/panel-icons
 
-<!-- This log was last generated on Wed, 06 May 2026 10:12:02 GMT and should not be manually modified. -->
+<!-- This log was last generated on Wed, 19 Aug 2026 05:44:46 GMT and should not be manually modified. -->
 
 <!-- Start content -->
+
+## 4.8.0
+
+Wed, 19 Aug 2026 05:44:46 GMT
+
+### Minor changes
+
+- AYCP-20528 - add image-alt icon (daniel.junco@scayle.com)
 
 ## 4.7.0
 

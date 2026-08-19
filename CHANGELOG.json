@@ -2,6 +2,21 @@
   "name": "@scayle/panel-icons",
   "entries": [
     {
+      "date": "Wed, 19 Aug 2026 05:44:46 GMT",
+      "version": "4.8.0",
+      "tag": "@scayle/panel-icons_v4.8.0",
+      "comments": {
+        "minor": [
+          {
+            "author": "daniel.junco@scayle.com",
+            "package": "@scayle/panel-icons",
+            "commit": "bd3e92e46c15fe05a9725117bd3f2873e70e9a6a",
+            "comment": "AYCP-20528 - add image-alt icon"
+          }
+        ]
+      }
+    },
+    {
       "date": "Wed, 06 May 2026 10:12:02 GMT",
       "version": "4.7.0",
       "tag": "@scayle/panel-icons_v4.7.0",
