@@ -14,7 +14,7 @@
 </p>
 
 <p align="center">
-  <a href="https://www.npmjs.com/package/@scayle/panel-icons"><img src="https://img.shields.io/badge/icons-275-success" alt="Icons counter"></a>
+  <a href="https://www.npmjs.com/package/@scayle/panel-icons"><img src="https://img.shields.io/badge/icons-276-success" alt="Icons counter"></a>
   <a href="https://www.npmjs.com/package/@scayle/panel-icons"><img src="https://img.shields.io/npm/v/@scayle/panel-icons" alt="Latest Release"></a>
   <a href="https://www.npmjs.com/package/@scayle/panel-icons"><img src="https://img.shields.io/npm/dt/@scayle/panel-icons" alt="Total Downloads"></a>
   <a href="#"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="SCAYLE's *Panel Icon Library* is released under the MIT license." /></a>
@@ -42,9 +42,12 @@ npm i -S @scayle/panel-icons
 
 The `icons/` directory contains all the icon files as svg. Do what you want with them.
 
-## Upgrade guide from version 3.0.0 to 4.8.0
+## Upgrade guide from version 3.0.0 to 4.8.1
 
-To upgrade your panel-icons library, change the version for @scayle/panel-icons to "^4.8.0"
+To upgrade your panel-icons library, change the version for @scayle/panel-icons to "^4.8.1"
+
+#### New icons in version 4.8.1
+- text-edit
 
 #### New icons in version 4.8.0
 - image-alt
@@ -447,6 +450,7 @@ It can also be combined with [unplugin-vue-components](https://github.com/antfu/
 | text                       | ![](./icons/text.svg)                       | `./icons/text.svg`                       | `<IconText class="icon" />`                     |
 | text-bold                  | ![](./icons/text-bold.svg)                  | `./icons/text-bold.svg`                  | `<IconTextBold class="icon" />`                 |
 | text-center                | ![](./icons/text-center.svg)                | `./icons/text-center.svg`                | `<IconTextCenter class="icon" />`               |
+| text-edit                  | ![](./icons/text-edit.svg)                  | `./icons/text-edit.svg`                  | `<IconTextEdit class="icon" />`                 |
 | text-italic                | ![](./icons/text-italic.svg)                | `./icons/text-italic.svg`                | `<IconTextItalic class="icon" />`               |
 | text-justify               | ![](./icons/text-justify.svg)               | `./icons/text-justify.svg`               | `<IconTextJustify class="icon" />`              |
 | text-left                  | ![](./icons/text-left.svg)                  | `./icons/text-left.svg`                  | `<IconTextLeft class="icon" />`                 |
