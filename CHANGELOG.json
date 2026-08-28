@@ -2,6 +2,21 @@
   "name": "@scayle/panel-icons",
   "entries": [
     {
+      "date": "Fri, 28 Aug 2026 13:48:32 GMT",
+      "version": "4.8.1",
+      "tag": "@scayle/panel-icons_v4.8.1",
+      "comments": {
+        "patch": [
+          {
+            "author": "elibetsy.chong@scayle.com",
+            "package": "@scayle/panel-icons",
+            "commit": "6dce8e1ad2a994a857ac62fe3193a4b254b48d45",
+            "comment": "Add text-edit icon"
+          }
+        ]
+      }
+    },
+    {
       "date": "Wed, 19 Aug 2026 05:44:46 GMT",
       "version": "4.8.0",
       "tag": "@scayle/panel-icons_v4.8.0",

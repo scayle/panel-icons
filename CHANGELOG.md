@@ -1,8 +1,16 @@
 # Change Log - @scayle/panel-icons
 
-<!-- This log was last generated on Wed, 19 Aug 2026 05:44:46 GMT and should not be manually modified. -->
+<!-- This log was last generated on Fri, 28 Aug 2026 13:48:32 GMT and should not be manually modified. -->
 
 <!-- Start content -->
+
+## 4.8.1
+
+Fri, 28 Aug 2026 13:48:32 GMT
+
+### Patches
+
+- Add text-edit icon (elibetsy.chong@scayle.com)
 
 ## 4.8.0
 
