@@ -1,0 +1,7 @@
+{
+  "type": "patch",
+  "comment": "Add text-edit icon",
+  "packageName": "@scayle/panel-icons",
+  "email": "elibetsy.chong@scayle.com",
+  "dependentChangeType": "patch"
+}
