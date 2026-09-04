@@ -1,8 +1,16 @@
 # Change Log - @scayle/panel-icons
 
-<!-- This log was last generated on Fri, 28 Aug 2026 13:48:32 GMT and should not be manually modified. -->
+<!-- This log was last generated on Fri, 04 Sep 2026 13:49:47 GMT and should not be manually modified. -->
 
 <!-- Start content -->
+
+## 4.9.0
+
+Fri, 04 Sep 2026 13:49:47 GMT
+
+### Minor changes
+
+- AYCP-20560 - add video-single icon (daniel.junco@scayle.com)
 
 ## 4.8.1
 

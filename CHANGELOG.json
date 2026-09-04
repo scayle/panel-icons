@@ -2,6 +2,21 @@
   "name": "@scayle/panel-icons",
   "entries": [
     {
+      "date": "Fri, 04 Sep 2026 13:49:47 GMT",
+      "version": "4.9.0",
+      "tag": "@scayle/panel-icons_v4.9.0",
+      "comments": {
+        "minor": [
+          {
+            "author": "daniel.junco@scayle.com",
+            "package": "@scayle/panel-icons",
+            "commit": "6ddaf2b3a6ecae608968d5a86f881e41b1381157",
+            "comment": "AYCP-20560 - add video-single icon"
+          }
+        ]
+      }
+    },
+    {
       "date": "Fri, 28 Aug 2026 13:48:32 GMT",
       "version": "4.8.1",
       "tag": "@scayle/panel-icons_v4.8.1",
