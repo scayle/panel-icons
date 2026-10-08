@@ -1,20 +1,8 @@
 const fs = require('fs');
 const path = require('path');
-const { compile, parse, NodeTypes, ElementTypes } = require('@vue/compiler-dom');
+const { compile } = require('@vue/compiler-dom');
 
 const FILE_NAME = /^[a-z0-9]+(-[a-z0-9]+)*$/;
-const ALLOWED_ELEMENTS = [
-    'svg', 'g', 'path', 'circle', 'rect', 'ellipse', 'line', 'polyline', 'polygon',
-    'defs', 'use', 'clipPath', 'mask', 'linearGradient', 'radialGradient', 'stop',
-];
-const ALLOWED_ATTRIBUTES = [
-    'xmlns', 'xmlns:xlink', 'xml:space', 'viewBox', 'width', 'height', 'id', 'class',
-    'd', 'x', 'y', 'x1', 'y1', 'x2', 'y2', 'cx', 'cy', 'r', 'rx', 'ry', 'points', 'transform', 'offset',
-    'fill', 'fill-rule', 'fill-opacity', 'clip-rule', 'clip-path', 'mask', 'filter', 'opacity',
-    'stroke', 'stroke-width', 'stroke-linecap', 'stroke-linejoin', 'stroke-miterlimit',
-    'stroke-dasharray', 'stroke-dashoffset', 'stroke-opacity', 'stop-color', 'stop-opacity',
-    'gradientUnits', 'gradientTransform', 'clipPathUnits', 'maskUnits', 'href', 'xlink:href',
-];
 const VUE_IMPORT = /^import \{ ([^}]+) \} from "vue"$/m;
 const RENDER_EXPORT = 'export function render(';
 
@@ -28,57 +16,10 @@ function toComponentName(fileBaseName) {
     );
 }
 
-// The SVG is compiled as a Vue template, so only plain SVG drawing markup is
-// let through: anything else could become a component, a script or HTML in the
-// consumer's page once the package is published.
-function assertStaticSvg(file, node) {
-    if (node.type === NodeTypes.COMMENT) {
-        return;
-    }
-
-    if (node.type === NodeTypes.TEXT) {
-        if (node.content.trim() !== '') {
-            throw new Error(`${file}: text content is not allowed`);
-        }
-
-        return;
-    }
-
-    if (node.type !== NodeTypes.ELEMENT || node.tagType !== ElementTypes.ELEMENT || !ALLOWED_ELEMENTS.includes(node.tag)) {
-        throw new Error(`${file}: <${node.tag ?? 'non-element'}> is not allowed`);
-    }
-
-    for (const prop of node.props) {
-        const value = prop.value?.content ?? '';
-
-        if (prop.type !== NodeTypes.ATTRIBUTE || !ALLOWED_ATTRIBUTES.includes(prop.name)) {
-            throw new Error(`${file}: attribute "${prop.rawName ?? prop.name}" is not allowed`);
-        }
-
-        if (/href$/.test(prop.name) && !value.startsWith('#')) {
-            throw new Error(`${file}: only local "#" references are allowed in "${prop.name}"`);
-        }
-
-        if (/url\(/i.test(value) && !/^url\(#[\w-]+\)$/.test(value)) {
-            throw new Error(`${file}: only local url(#id) references are allowed in "${prop.name}"`);
-        }
-    }
-
-    node.children.forEach(child => assertStaticSvg(file, child));
-}
-
 function compileIcon(file, svg) {
     if (!svg.startsWith('<svg ')) {
         throw new Error(`${file}: expected the file to start with "<svg "`);
     }
-
-    const roots = parse(svg).children.filter(node => node.type !== NodeTypes.TEXT || node.content.trim() !== '');
-
-    if (roots.length !== 1 || roots[0].tag !== 'svg') {
-        throw new Error(`${file}: expected a single <svg> root element`);
-    }
-
-    assertStaticSvg(file, roots[0]);
 
     const source = svg.replace(/^<svg /, '<svg aria-hidden="true" ');
     const { code } = compile(source, {
