@@ -42,6 +42,44 @@ npm i -S @scayle/panel-icons
 
 The `icons/` directory contains all the icon files as svg. Do what you want with them.
 
+## Vue components
+
+Every icon is also available as a ready-made Vue 3 component, so you can use either the svg files or the components. The components need no loader, plugin or runtime template compiler. `vue` 3.4 or newer is an optional peer dependency and is only needed for this entry.
+
+Import the icons you need by name. Unused icons are tree-shaken out of your bundle:
+
+```javascript
+import { IconAdd, IconTruck } from '@scayle/panel-icons/vue'
+```
+
+```vue
+<template>
+    <IconAdd class="icon" />
+</template>
+```
+
+The component name is `Icon` plus the PascalCase file name, so `arrow-circle-left.svg` becomes `IconArrowCircleLeft`.
+
+`panelIcons` maps every file name to its component, for example to register all icons in `@scayle/panel-ui`:
+
+```javascript
+import { panelIcons } from '@scayle/panel-icons/vue'
+
+app.use(createScayleUi({ icons: panelIcons })) // then <ScayleBadge icon="truck" />
+```
+
+Importing `panelIcons` pulls all 277 icons into your bundle. Use named imports where bundle size matters.
+
+CommonJS works too, for example in Jest:
+
+```javascript
+const { IconAdd } = require('@scayle/panel-icons/vue')
+```
+
+Icons render with `aria-hidden="true"` and take their size from CSS. For an icon that carries meaning, pass `aria-hidden="false"` together with `role="img"` and an `aria-label`.
+
+`@scayle/panel-icons/vue` resolves in bundlers (Vite, webpack) and through `require()`. Native Node ESM can't import that path; import `@scayle/panel-icons/vue/esm/index.js` there instead.
+
 ## Upgrade guide from version 3.0.0 to 4.9.0
 
 To upgrade your panel-icons library, change the version for @scayle/panel-icons to "^4.9.0"
