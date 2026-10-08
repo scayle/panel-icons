@@ -1,8 +1,16 @@
 # Change Log - @scayle/panel-icons
 
-<!-- This log was last generated on Fri, 04 Sep 2026 13:49:47 GMT and should not be manually modified. -->
+<!-- This log was last generated on Thu, 08 Oct 2026 11:11:57 GMT and should not be manually modified. -->
 
 <!-- Start content -->
+
+## 4.10.0
+
+Thu, 08 Oct 2026 11:11:57 GMT
+
+### Minor changes
+
+- Add Vue 3 components under @scayle/panel-icons/vue (kaloyan.yosifov@scayle.com)
 
 ## 4.9.0
 

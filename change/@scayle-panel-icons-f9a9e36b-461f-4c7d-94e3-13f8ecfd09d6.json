@@ -1,7 +1,0 @@
-{
-  "type": "minor",
-  "comment": "Add Vue 3 components under @scayle/panel-icons/vue",
-  "packageName": "@scayle/panel-icons",
-  "email": "kaloyan.yosifov@scayle.com",
-  "dependentChangeType": "patch"
-}

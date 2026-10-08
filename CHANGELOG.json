@@ -2,6 +2,21 @@
   "name": "@scayle/panel-icons",
   "entries": [
     {
+      "date": "Thu, 08 Oct 2026 11:11:57 GMT",
+      "version": "4.10.0",
+      "tag": "@scayle/panel-icons_v4.10.0",
+      "comments": {
+        "minor": [
+          {
+            "author": "kaloyan.yosifov@scayle.com",
+            "package": "@scayle/panel-icons",
+            "commit": "3a23369032caf6a20f416a30817ffaa7fcd661c2",
+            "comment": "Add Vue 3 components under @scayle/panel-icons/vue"
+          }
+        ]
+      }
+    },
+    {
       "date": "Fri, 04 Sep 2026 13:49:47 GMT",
       "version": "4.9.0",
       "tag": "@scayle/panel-icons_v4.9.0",
